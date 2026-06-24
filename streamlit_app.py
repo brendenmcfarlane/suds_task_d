@@ -130,7 +130,6 @@ child1._adjacencies = [("question", "planner"),
                      ("question", "reader"), 
                      ("question", "verifier"),
                      ("planner", "reader"),
-                     ("planner", "reader"),
                      ("reader", "solver"),
                      ("solver", "verifier")]
 child2._adjacencies = [("question", "planner"), 
