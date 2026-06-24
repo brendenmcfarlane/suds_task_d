@@ -134,16 +134,18 @@ left_key = col1.radio(
     graph_dict.keys(),
     index=None,
 )
-left_graph = graph_dict.get(left_key)
-col1.graphviz_chart(left_graph)
+if isinstance(left_key, str):
+    left_graph = graph_dict.get(left_key)
+    col1.graphviz_chart(left_graph)
 
 right_key = col2.radio(
     "Select Right Graph",
     graph_dict.keys(),
     index=None,
 )
-right_graph = graph_dict.get(right_key)
-col2.graphviz_chart(right_graph)
+if isinstance(right_key, str):
+    right_graph = graph_dict.get(right_key)
+    col2.graphviz_chart(right_graph)
 
 action = col1.menu_button("left graph", options=["graph_one", "graph_two", "graph_three"])
 if action == "graph_one":
