@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import graphviz
 from test_imp import TEST_VAR
+from application.workflow_node import WorkFlowNode
 
 st.write(TEST_VAR)
 class WorkFlowNode():
