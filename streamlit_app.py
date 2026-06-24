@@ -136,3 +136,11 @@ elif action == "graph_two":
     st.graphviz_chart(H)
 elif action == "graph_three":
     st.graphviz_chart(I)
+
+action_two = st.menu_button("right graph", options=["graph_one", "graph_two", "graph_three"])
+if action_two == "graph_one":
+    st.graphviz_chart(G)
+elif action_two == "graph_two":
+    st.graphviz_chart(H)
+elif action_two == "graph_three":
+    st.graphviz_chart(I)
