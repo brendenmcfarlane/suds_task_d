@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import graphviz
-import test_imp
+from test_imp import TEST_VAR
 
 class WorkFlowNode():
     def __init__(self, key:str):
