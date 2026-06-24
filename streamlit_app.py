@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import graphviz
-from application.workflow_node import WorkFlowNode
+import  application.workflow_node
 
 # clean_trace = [
 #     {
