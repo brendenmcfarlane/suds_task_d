@@ -128,19 +128,19 @@ I.edge("reader", "solver")
 I.edge("solver", "verifier")
 
 
-
-action = st.menu_button("left graph", options=["graph_one", "graph_two", "graph_three"])
+col1, col2 = st.columns(2)
+action = col1.menu_button("left graph", options=["graph_one", "graph_two", "graph_three"])
 if action == "graph_one":
-    st.graphviz_chart(G)
+    col1.graphviz_chart(G)
 elif action == "graph_two":
-    st.graphviz_chart(H)
+    col1.graphviz_chart(H)
 elif action == "graph_three":
-    st.graphviz_chart(I)
+    col1.graphviz_chart(I)
 
-action_two = st.menu_button("right graph", options=["graph_one", "graph_two", "graph_three"])
+action_two = col2.menu_button("right graph", options=["graph_one", "graph_two", "graph_three"])
 if action_two == "graph_one":
-    st.graphviz_chart(G)
+    col2.graphviz_chart(G)
 elif action_two == "graph_two":
-    st.graphviz_chart(H)
+    col2.graphviz_chart(H)
 elif action_two == "graph_three":
-    st.graphviz_chart(I)
+    col2.graphviz_chart(I)
