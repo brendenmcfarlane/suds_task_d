@@ -157,7 +157,8 @@ workflow_search_space = graphviz.Digraph()
 graph_dict = {}
 convo_dict = {}
 recursively_update_search_space(workflow_search_space, graph_dict, convo_dict, root)
-
+st.graphviz_chart(workflow_search_space)
+st.divider()
 # workflow_search_space.edge("graph_one", "graph_two")
 # workflow_search_space.edge("graph_one", "graph_three")
 # st.graphviz_chart(workflow_search_space)
