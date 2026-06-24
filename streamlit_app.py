@@ -1,6 +1,8 @@
 # python3 -m streamlit run frameworks/script.py
 import streamlit as st
 import pandas as pd
+import graphviz
+
 clean_trace = [
     {
         "question": "The Rotary Club is holding its annual fundraising Omelet Breakfast, with tickets sold in advance. The tickets come in different price levels, for young children, older children, adults, and seniors. This year they sold 53 small children tickets, 35 older children tickets, 75 adult tickets, and 37 senior tickets. To figure out how many eggs they need to buy, the club estimates that small children can eat a half omelet, older children can eat a whole omelet, adults will eat two omelets, and seniors will eat one and a half omelets. Just to be on the safe side, they get enough eggs to make 25 extra omelets. If they use 2 eggs for each omelet, how many eggs will they need to buy?",
@@ -98,3 +100,21 @@ st.write(pd.DataFrame({
 y = st.slider('y')  
 st.write(y, 'squared is', y * y)
 st.write(clean_trace)
+
+# Create a graphlib graph object
+graph = graphviz.Digraph()
+graph.edge("run", "intr")
+graph.edge("intr", "runbl")
+graph.edge("runbl", "run")
+graph.edge("run", "kernel")
+graph.edge("kernel", "zombie")
+graph.edge("kernel", "sleep")
+graph.edge("kernel", "runmem")
+graph.edge("sleep", "swap")
+graph.edge("swap", "runswap")
+graph.edge("runswap", "new")
+graph.edge("runswap", "runmem")
+graph.edge("new", "runmem")
+graph.edge("sleep", "runmem")
+
+st.graphviz_chart(graph)
