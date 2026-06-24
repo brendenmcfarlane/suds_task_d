@@ -129,13 +129,13 @@ I.edge("solver", "verifier")
 
 graph_dict = {"graph_one": G, "graph_two": H, "graph_three": I}
 col1, col2 = st.columns(2)
-genre = col1.radio(
+left_graph = col1.radio(
     "Select Graph",
     graph_dict.keys(),
     index=None,
 )
 
-st.write("You selected:", genre)
+col1.graphviz_chart(graph_dict.get(left_graph))
 
 action = col1.menu_button("left graph", options=["graph_one", "graph_two", "graph_three"])
 if action == "graph_one":
