@@ -13,6 +13,7 @@ class Transcript:
             step = {}
             step["question"] = self.states[i].question.get_question()
             step["step"] = i + 1
+            step["topology"] = self.states[i].topology["edges"]
             step["agent"] = self.actions[i].agent_id
             step["state_before"] = self.states[i].transcript
             step["action"] = {"type":self.actions[i].action_type, "content": self.actions[i].action_content}

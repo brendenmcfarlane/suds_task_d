@@ -3,10 +3,18 @@
 
 # from api_key import GEMINI_API_KEY
 # from src.api_throttler import GEMINI_THROTTLER
-class LLMInterface:
+from abc import ABC, abstractmethod
+
+class LLMInterface(ABC):
+    @abstractmethod
     def make_query(self, msg:list[dict]) -> list[dict]:
-        return [{"type": "text", "text":"query made"}]
-    
+        pass
+
+class TestLLMInterface(LLMInterface):
+    def make_query(self, msg:list[dict]) -> list[dict]:
+        return [{"type": "text", "text":"query made"}]    
+
+
 # class SlowGeminiAPI(LLMInterface):
 #     def __init__(self):
 #         self._client = genai.Client(api_key=GEMINI_API_KEY)

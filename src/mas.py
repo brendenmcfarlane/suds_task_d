@@ -34,8 +34,11 @@ class MAS(EventListener):
             self._transcript.append(transcript_line)
         else: pass
 
-    def next_agent(self):  
-        topology = {"vertices": self._agents, "edges": self._get_all_adjacencies()}
+    def next_agent(self): 
+        edges =  self._get_all_adjacencies()[:]
+        for agent in self._informed_agents:
+            edges.append(("question", agent))
+        topology = {"vertices": self._agents, "edges": edges}
         state = MASStateUpdate(self._question, topology, self._transcript[:])
         self._event_producer.publish(state)
         if len(self._curr_queue) == 0:
@@ -57,6 +60,7 @@ class MAS(EventListener):
         for a1 in self._agents:
             for a2 in self._adjacencies.get(a1):
                 edges.append((a1, a2))
+        return edges
     
     def add_agent(self, agent:str):
         self._agents.append(agent)

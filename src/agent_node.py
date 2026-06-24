@@ -42,7 +42,7 @@ class AgentNode:
     def check_is_executed(self):
         return (self._output != "")
     def receive_message(self, message):
-        ''' Precondition: <message> of the form { "input": "input_type", "input_type": "input data" }
+        ''' Precondition: <message> of the form { "type": "input_type", "input_type": "input data" }
         '''
         self._inputs.append(message)
         return None

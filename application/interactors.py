@@ -7,6 +7,7 @@ from application.database_interface import DBInterface
 from application.llm_interfaces_dict import LLM_INTERFACES
 from api.deepseek_client import DeepSeekAPI
 from dataclasses import dataclass
+from abc import ABC, abstractmethod
 
 
 @dataclass
@@ -109,3 +110,19 @@ class ExecuteFullTraceInteractor(ExecuteFullTraceI):
                         adj_agent.receive_message(output)
             curr_actor = self._mas.next_agent()
 
+class ExecuteLLMJudgeI(ABC):
+    def __init__(self, agent_repo):
+        self._agent_repo = agent_repo
+    @abstractmethod
+    def execute_judge_llm_uc(self, agent_id:str, json_str:str) ->str:
+        pass
+    
+class ExecuteLLMJudgeInteractor(ExecuteAgentI):
+    def execute_judge_llm_uc(self, agent_id, json_str) -> str:
+        judge = self._agent_repo.get_agent(agent_id)
+        judge.receive_message({"type": "text", "text": json_str})
+        content = judge.get_client_input()
+        client = self._agent_repo.get_client(agent_id)
+        output = client.make_query(content)
+        judge.set_output(output)
+        return judge.get_output()[0].get("text")

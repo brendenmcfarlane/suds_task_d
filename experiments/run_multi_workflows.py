@@ -1,4 +1,6 @@
 #from application.interactors import ImportAgentsI, ImportQueriesI, ExecuteFullTraceI, BuildMASFromSpecsI, SetupInputData
+import time
+
 import application.interactors, application.database_interface, application.agent_repo, application.event_bus, application.transcript
 import src.agent_node, src.mas
 
@@ -25,9 +27,11 @@ def main():
     
     mas_paths = ["tests/multi_trace/sample_mas.json", "tests/multi_trace/sample_mas_two.json"]
     results = {}
-    for i in range(len(queries)):
+    # scores = {} TODO: convert to ndarray using numpy.empty()
+    for i in range(len(queries[:])):
         results[i] = {}
-        for j in range(len(mas_paths)):
+        # scores[i] = {} 
+        for j in range(len(mas_paths[:])):
             q = queries[i]
             mas_path = mas_paths[j]
             agents_path = "tests/multi_trace/sample_agents.json"
@@ -55,7 +59,40 @@ def main():
 
             results[i][j] = transcript.get_steps()
     
-    json_db.write_to(results, "tests/multi_trace/results.json")
+    for query_ind in results.keys():
+        for wrkflw_ind in results[query_ind].keys():
+            for part_tran_ind in range(len(results[query_ind][wrkflw_ind])):
+                # convert results[i][j][:k+1] to json_str
+                json_str = json_db.to_string(results[query_ind][wrkflw_ind][:part_tran_ind+1])
+                agents_path = "tests/multi_trace/llm_judge.json" # path to llm judge
+
+                agent_repo = application.agent_repo.AgentRepo()
+
+                agents_importer = application.interactors.ImportAgentsInteractor(agents_path, json_db, agent_repo, application.event_bus.EventBus())
+                agents_importer.import_agents_uc()
+
+                llj_judge_executor = application.interactors.ExecuteLLMJudgeInteractor(agent_repo)
+                v = llj_judge_executor.execute_judge_llm_uc("judge", json_str)
+                results[query_ind][wrkflw_ind][:part_tran_ind+1][part_tran_ind]["V"] = json_db.from_string(v)
+
+# class ExecuteLLMJudgeI(ABC):
+#     def __init__(self, agent_repo):
+#         self._agent_repo = agent_repo
+#     @abstractmethod
+#     def execute_agent_uc(self, agent_id:str, json_str:str) ->str:
+#         pass
+    
+# class ExecuteLLMJudgeInteractor(ExecuteAgentI):
+#     def execute_judge_llm__uc(self, agent_id, json_str) -> str:
+#         judge = self._agent_repo.get_agent(agent_id)
+#         judge.receive_message({"input": "text", "text": json_str})
+#         content = judge.get_client_input()
+#         client = self._agent_repo.get_client(agent_id)
+#         output = client.make_query(content)
+#         judge.set_output(output)
+#         return judge.get_output().get("text")
+    ex_time = str(time.time_ns())
+    json_db.write_to(results, "tests/multi_trace/results_" + ex_time + ".json")
     
 
     
