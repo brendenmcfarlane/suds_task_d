@@ -137,6 +137,8 @@ left_key = col1.radio(
 if isinstance(left_key, str):
     left_graph = graph_dict.get(left_key)
     col1.graphviz_chart(left_graph)
+else:
+    col1.write("Select a Workflow to View")
 
 right_key = col2.radio(
     "Select Right Graph",
@@ -146,6 +148,8 @@ right_key = col2.radio(
 if isinstance(right_key, str):
     right_graph = graph_dict.get(right_key)
     col2.graphviz_chart(right_graph)
+else:
+    col2.write("Select a Workflow to View")
 
 action = col1.menu_button("left graph", options=["graph_one", "graph_two", "graph_three"])
 if action == "graph_one":
