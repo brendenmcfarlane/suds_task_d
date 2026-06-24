@@ -100,14 +100,39 @@ st.write(pd.DataFrame({
 y = st.slider('y')  
 st.write(y, 'squared is', y * y)
 st.write(clean_trace)
+st.divider() #horitontal line
 
 # Create a graphlib graph object
-graph = graphviz.Digraph()
-graph.edge("question", "planner")
-graph.edge("question", "reader")
-graph.edge("question", "verifier")
-graph.edge("planner", "solver")
-graph.edge("reader", "solver")
-graph.edge("solver", "verifier")
+G = graphviz.Digraph()
+G.edge("question", "planner")
+G.edge("question", "reader")
+G.edge("question", "verifier")
+G.edge("planner", "solver")
+G.edge("reader", "solver")
+G.edge("solver", "verifier")
 
-st.graphviz_chart(graph)
+H = graphviz.Digraph()
+H.edge("question", "planner")
+H.edge("question", "reader")
+H.edge("question", "verifier")
+H.edge("planner", "reader")
+H.edge("planner", "solver")
+H.edge("reader", "solver")
+H.edge("solver", "verifier")
+
+I = graphviz.Digraph()
+I.edge("question", "planner")
+I.edge("question", "reader")
+I.edge("planner", "solver")
+I.edge("reader", "solver")
+I.edge("solver", "verifier")
+
+
+
+action = st.menu_button("left graph", options=["graph_one", "graph_two", "graph_three"])
+if action == "graph_one":
+    st.graphviz_chart(G)
+elif action == "graph_two":
+    st.graphviz_chart(H)
+elif action == "graph_three":
+    st.graphviz_chart(I)
