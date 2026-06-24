@@ -106,7 +106,7 @@ graph = graphviz.Digraph()
 graph.edge("question", "planner")
 graph.edge("question", "reader")
 graph.edge("question", "verifier")
-graph.edge("plnner", "solver")
+graph.edge("planner", "solver")
 graph.edge("reader", "solver")
 graph.edge("solver", "verifier")
 
