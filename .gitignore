@@ -1,1 +1,6 @@
 api_key.py
+tests/*
+reference.txt
+Task_D.md
+*__pycache__*
+.vscode/
