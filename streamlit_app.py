@@ -97,3 +97,4 @@ st.write(pd.DataFrame({
 }))
 y = st.slider('y')  
 st.write(y, 'squared is', y * y)
+st.write(clean_trace)
