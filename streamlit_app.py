@@ -130,7 +130,8 @@ child1._adjacencies = [("question", "planner"),
                      ("question", "reader"), 
                      ("question", "verifier"),
                      ("planner", "reader"),
-                     ("planner", "solver"),
+  stion", "reader")
+
                      ("reader", "solver"),
                      ("solver", "verifier")]
 child2._adjacencies = [("question", "planner"), 
@@ -138,7 +139,7 @@ child2._adjacencies = [("question", "planner"),
                      ("planner", "solver"),
                      ("reader", "solver"),
                      ("solver", "verifier")]
-child1._transcript = clean_trace[:-2]
+child1._transcript = clean_trace[:-1]
 child2._transcript = clean_trace[:2]
 
 def recursively_update_search_space(ss:graphviz.Digraph, graph_dict, convo_dict, wfn: WorkFlowNode):
@@ -159,37 +160,7 @@ convo_dict = {}
 recursively_update_search_space(workflow_search_space, graph_dict, convo_dict, root)
 st.graphviz_chart(workflow_search_space)
 st.divider()
-# workflow_search_space.edge("graph_one", "graph_two")
-# workflow_search_space.edge("graph_one", "graph_three")
-# st.graphviz_chart(workflow_search_space)
-# st.divider() #horitontal line
 
-# # Create a graphlib graph object
-# G = graphviz.Digraph()
-# G.edge("question", "planner")
-# G.edge("question", "reader")
-# G.edge("question", "verifier")
-# G.edge("planner", "solver")
-# G.edge("reader", "solver")
-# G.edge("solver", "verifier")
-
-# H = graphviz.Digraph()
-# H.edge("question", "planner")
-# H.edge("question", "reader")
-# H.edge("question", "verifier")
-# H.edge("planner", "reader")
-# H.edge("planner", "solver")
-# H.edge("reader", "solver")
-# H.edge("solver", "verifier")
-
-# I = graphviz.Digraph()
-# I.edge("question", "planner")
-# I.edge("question", "reader")
-# I.edge("planner", "solver")
-# I.edge("reader", "solver")
-# I.edge("solver", "verifier")
-
-# graph_dict = {"graph_one": G, "graph_two": H, "graph_three": I}
 
 col1, col2 = st.columns(2)
 left_key = col1.radio(
@@ -234,3 +205,41 @@ else:
 #     col2.graphviz_chart(right_graph)
 # else:
 #     col2.write("Select a Workflow to View")
+
+
+
+# workflow_search_space.edge("graph_one", "graph_two")
+# workflow_search_space.edge("graph_one", "graph_three")
+# st.graphviz_chart(workflow_search_space)
+# st.divider() #horitontal line
+
+# # Create a graphlib graph object
+# G = graphviz.Digraph()
+# G.edge("question", "planner")
+# G.edge("que
+
+# I = graphviz.Digraph()
+# I.edge("question", "planner")
+# I.edge("question", "reader")
+# I.edge("planner", "solver")
+# I.edge("reader", "solver")
+# I.edge("solver", "verifier")
+
+# graph_dict = {"graph_one": G, "graph_two": H, "graph_three": I}
+
+
+
+
+# G.edge("question", "verifier")
+# G.edge("planner", "solver")
+# G.edge("reader", "solver")
+# G.edge("solver", "verifier")
+
+# H = graphviz.Digraph()
+# H.edge("question", "planner")
+# H.edge("question", "reader")
+# H.edge("question", "verifier")
+# H.edge("planner", "reader")
+# H.edge("planner", "solver")
+# H.edge("reader", "solver")
+# H.edge("solver", "verifier")                   ("planner", "solver"),
