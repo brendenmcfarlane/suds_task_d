@@ -130,7 +130,7 @@ I.edge("solver", "verifier")
 graph_dict = {"graph_one": G, "graph_two": H, "graph_three": I}
 col1, col2 = st.columns(2)
 left_key = col1.radio(
-    "Select Graph",
+    "Select Left Graph",
     graph_dict.keys(),
     index=None,
 )
@@ -138,7 +138,7 @@ left_graph = graph_dict.get(left_key)
 col1.graphviz_chart(left_graph)
 
 right_key = col2.radio(
-    "Select Graph",
+    "Select Right Graph",
     graph_dict.keys(),
     index=None,
 )
