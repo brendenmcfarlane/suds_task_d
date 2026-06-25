@@ -6,7 +6,6 @@ from frameworks.workflow_node import WorkFlowNode as WorkFlowNode
 import json
 
 
-)
 test_path = "frameworks/outputs2.json"
 question_index = 0
 workflow_index = 0
@@ -31,6 +30,7 @@ left_key = st.radio(
     [traces[k]["0"][0]["question"] for k in traces.keys()],
     index=None,
 )
+
 def recursively_update_search_space(ss:graphviz.Digraph, graph_dict, convo_dict, wfn: WorkFlowNode):
     workflow = graphviz.Digraph()
     for edge in wfn._adjacencies:
