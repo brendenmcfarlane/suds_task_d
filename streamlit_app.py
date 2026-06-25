@@ -17,7 +17,7 @@ root = WorkFlowNode("graph_one")
 # child2 = WorkFlowNode("graph_three")
 # root.add_child(child1)
 # root.add_child(child2)
-root._adjacencies = trace["topology"]
+root._adjacencies = trace[0]["topology"]
 # [("question", "planner"), 
 #                      ("question", "reader"), 
 #                      ("question", "verifier"),
