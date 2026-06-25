@@ -13,7 +13,7 @@ with open(test_path, "r") as f:
         traces = json.load(f)
 
 question_key = st.radio(
-    "Select Question",
+    "Select A Question To View MAS Trajectories",
     traces.keys(),
     format_func=lambda k: traces[k]["0"][0]["question"],
     index=0,
@@ -65,6 +65,7 @@ left_key = col1.radio(
 if isinstance(left_key, str):
     left_graph = graph_dict.get(left_key)
     col1.graphviz_chart(left_graph)
+    col1.subheader("Transcript of Agent Prompts and Messages")
     left_convo = convo_dict[left_key]
     col1.json(left_convo)
 else:
@@ -78,6 +79,7 @@ right_key = col2.radio(
 if isinstance(right_key, str):
     right_graph = graph_dict.get(right_key)
     col2.graphviz_chart(right_graph)
+    col2.subheader("Transcript of Agent Prompts and Messages")
     right_convo = convo_dict[right_key]
     col2.json(right_convo)
 else:
