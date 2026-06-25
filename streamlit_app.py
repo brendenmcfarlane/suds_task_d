@@ -50,11 +50,12 @@ def recursively_update_search_space(ss:graphviz.Digraph, graph_dict, convo_dict,
 workflow_search_space = graphviz.Digraph()
 graph_dict = {}
 convo_dict = {}
+st.header("Workflow Search Space Graph")
 recursively_update_search_space(workflow_search_space, graph_dict, convo_dict, root)
 st.graphviz_chart(workflow_search_space)
 st.divider()
 
-
+st.header("Compare Workflows Below")
 col1, col2 = st.columns(2)
 left_key = col1.radio(
     "Select Left Graph",
