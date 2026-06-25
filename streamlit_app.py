@@ -27,7 +27,8 @@ for workflow_key in traces[str(question_index)].keys():
 
 left_key = st.radio(
     "Select Question",
-    [traces[k]["0"][0]["question"] for k in traces.keys()],
+    traces.keys(),
+    format_func=lambda k: traces[k]["0"][0]["question"],
     index=None,
 )
 
