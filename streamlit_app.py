@@ -11,26 +11,29 @@ question_index = 0
 workflow_index = 0
 with open(test_path, "r") as f:
         traces = json.load(f)
-trace = traces[str(question_index)][str(workflow_index)]
 
-root = WorkFlowNode("root graph")
-root._adjacencies = trace[0]["topology"]
-root._transcript = trace[-1]["state_after"]
-for workflow_key in traces[str(question_index)].keys():
-     if workflow_key == "0":
-          pass
-     else:
-        child = WorkFlowNode("child " + workflow_key)
-        root.add_child(child)
-        child._adjacencies  = traces[str(question_index)][workflow_key][0]["topology"]
-        child._transcript = traces[str(question_index)][workflow_key][-1]["state_after"]
-
-left_key = st.radio(
+question_key = st.radio(
     "Select Question",
     traces.keys(),
     format_func=lambda k: traces[k]["0"][0]["question"],
     index=None,
 )
+
+trace = traces[question_key][str(workflow_index)]
+
+root = WorkFlowNode("root graph")
+root._adjacencies = trace[0]["topology"]
+root._transcript = trace[-1]["state_after"]
+for workflow_key in traces[question_key].keys():
+     if workflow_key == "0":
+          pass
+     else:
+        child = WorkFlowNode("child " + workflow_key)
+        root.add_child(child)
+        child._adjacencies  = traces[question_key][workflow_key][0]["topology"]
+        child._transcript = traces[question_key][workflow_key][-1]["state_after"]
+
+
 
 def recursively_update_search_space(ss:graphviz.Digraph, graph_dict, convo_dict, wfn: WorkFlowNode):
     workflow = graphviz.Digraph()
