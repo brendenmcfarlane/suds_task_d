@@ -6,8 +6,11 @@ from application.workflow_node import WorkFlowNode as WorkFlowNode
 import json
 
 test_path = "outputs2.json"
+question_index = 0
+workflow_index = 1
 with open(test_path, "r") as f:
-        trace = json.load(f)
+        traces = json.load(f)
+trace = traces[question_index][workflow_index]
 
 root = WorkFlowNode("graph_one")
 child1 = WorkFlowNode("graph_two")
