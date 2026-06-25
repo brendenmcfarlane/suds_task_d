@@ -71,7 +71,7 @@ if isinstance(left_key, str):
     left_graph = graph_dict.get(left_key)
     col1.graphviz_chart(left_graph)
     left_convo = convo_dict[left_key]
-    col1.write(left_convo)
+    col1.json(left_convo)
 else:
     col1.write("Select a Workflow to View")
 
@@ -84,7 +84,7 @@ if isinstance(right_key, str):
     right_graph = graph_dict.get(right_key)
     col2.graphviz_chart(right_graph)
     right_convo = convo_dict[right_key]
-    col2.write(right_convo)
+    col2.json(right_convo)
 else:
     col2.write("Select a Workflow to View")
 
