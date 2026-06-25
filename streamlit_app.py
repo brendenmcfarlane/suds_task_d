@@ -2,10 +2,10 @@
 import streamlit as st
 import pandas as pd
 import graphviz
-from application.workflow_node import WorkFlowNode as WorkFlowNode
+from frameworks.workflow_node import WorkFlowNode as WorkFlowNode
 import json
 
-test_path = "outputs2.json"
+test_path = "frameworks/outputs2.json"
 question_index = 0
 workflow_index = 1
 with open(test_path, "r") as f:
