@@ -5,7 +5,7 @@ import graphviz
 from application.workflow_node import WorkFlowNode as WorkFlowNode
 import json
 
-test_path = "outputs.json"
+test_path = "outputs2.json"
 with open(test_path, "r") as f:
         trace = json.load(f)
 
