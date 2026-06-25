@@ -13,10 +13,10 @@ with open(test_path, "r") as f:
 trace = traces[str(question_index)][str(workflow_index)]
 
 root = WorkFlowNode("graph_one")
-child1 = WorkFlowNode("graph_two")
-child2 = WorkFlowNode("graph_three")
-root.add_child(child1)
-root.add_child(child2)
+# child1 = WorkFlowNode("graph_two")
+# child2 = WorkFlowNode("graph_three")
+# root.add_child(child1)
+# root.add_child(child2)
 root._adjacencies = [("question", "planner"), 
                      ("question", "reader"), 
                      ("question", "verifier"),
@@ -24,19 +24,19 @@ root._adjacencies = [("question", "planner"),
                      ("reader", "solver"),
                      ("solver", "verifier")]
 root._transcript = trace[:]
-child1._adjacencies = [("question", "planner"), 
-                     ("question", "reader"), 
-                     ("question", "verifier"),
-                     ("planner", "reader"),
-                     ("reader", "solver"),
-                     ("solver", "verifier")]
-child2._adjacencies = [("question", "planner"), 
-                     ("question", "reader"), 
-                     ("planner", "solver"),
-                     ("reader", "solver"),
-                     ("solver", "verifier")]
-child1._transcript = trace[:-1]
-child2._transcript = trace[:2]
+# child1._adjacencies = [("question", "planner"), 
+#                      ("question", "reader"), 
+#                      ("question", "verifier"),
+#                      ("planner", "reader"),
+#                      ("reader", "solver"),
+#                      ("solver", "verifier")]
+# child2._adjacencies = [("question", "planner"), 
+#                      ("question", "reader"), 
+#                      ("planner", "solver"),
+#                      ("reader", "solver"),
+#                      ("solver", "verifier")]
+# child1._transcript = trace[:-1]
+# child2._transcript = trace[:2]
 
 def recursively_update_search_space(ss:graphviz.Digraph, graph_dict, convo_dict, wfn: WorkFlowNode):
     workflow = graphviz.Digraph()
