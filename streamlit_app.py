@@ -5,6 +5,8 @@ import graphviz
 from frameworks.workflow_node import WorkFlowNode as WorkFlowNode
 import json
 
+
+)
 test_path = "frameworks/outputs2.json"
 question_index = 0
 workflow_index = 0
@@ -24,33 +26,11 @@ for workflow_key in traces[str(question_index)].keys():
         child._adjacencies  = traces[str(question_index)][workflow_key][0]["topology"]
         child._transcript = traces[str(question_index)][workflow_key][-1]["state_after"]
 
-# child2 = WorkFlowNode("graph_three")
-
-# root.add_child(child2)
-
-# [("question", "planner"), 
-#                      ("question", "reader"), 
-#                      ("question", "verifier"),
-#                      ("planner", "solver"),
-#                      ("reader", "solver"),
-#                      ("solver", "verifier")]
-
-
-
-# [("question", "planner"), 
-#                      ("question", "reader"), 
-#                      ("question", "verifier"),
-#                      ("planner", "reader"),
-#                      ("reader", "solver"),
-#                      ("solver", "verifier")]
-# child2._adjacencies = [("question", "planner"), 
-#                      ("question", "reader"), 
-#                      ("planner", "solver"),
-#                      ("reader", "solver"),
-#                      ("solver", "verifier")]
-
-# child2._transcript = trace[:2]
-
+left_key = st.radio(
+    "Select Question",
+    [traces[k]["0"][0]["question"] for k in traces.keys()],
+    index=None,
+)
 def recursively_update_search_space(ss:graphviz.Digraph, graph_dict, convo_dict, wfn: WorkFlowNode):
     workflow = graphviz.Digraph()
     for edge in wfn._adjacencies:
