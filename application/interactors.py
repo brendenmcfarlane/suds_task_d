@@ -1,6 +1,6 @@
 from src.agent_node import AgentNode
 from src.mas import MAS
-from src.query import Query
+from src.query import Query, MultiMediaQuery
 from src.events import EventProducer
 from application.agent_repo import AgentRepo
 from application.database_interface import DBInterface
@@ -80,7 +80,7 @@ class ImportQueriesInteractor(ImportQueriesI):
         queries = self._db.read_in(self._path)
         processed_queries = []
         for q in queries:
-            processed_queries.append(Query(**q))
+            processed_queries.append(MultiMediaQuery(**q))
         return processed_queries
     
 class ExecuteFullTraceI:

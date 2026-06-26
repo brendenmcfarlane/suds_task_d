@@ -11,8 +11,8 @@ class Query:
 
 class MultiMediaQuery(Query):
     def __init__(self,**kwargs):
-        super().__init__()
-        self._file_path = kwargs.get("file_path")
+        super().__init__(**kwargs)
+        self._image_path = kwargs.get("image_url")
 
-    def get_file_path(self):
-        return self._file_path
+    def get_image_path(self):
+        return self._image_path

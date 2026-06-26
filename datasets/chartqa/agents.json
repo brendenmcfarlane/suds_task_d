@@ -1,18 +1,6 @@
 {
-  "planner": {
-    "prompt": "You are the Planner. Propose a concise plan to solve the task.",
-    "model": "openai"
-  },
-  "verifier": {
-    "prompt": "You are the Verifier. Double-check the result and produce the final answer only.",
-    "model": "openai"
-  },
-  "solver": {
-    "prompt": "You are the Solver. Carry out the plan and compute results given the facts",
-    "model": "openai"
-  },
-  "reader": {
-    "prompt": "You are the Reader. Extract key facts for another agent to use to generate the final answer.",
+  "test agent": {
+    "prompt": "Answer the question, with your final answer formatted as an integer",
     "model": "openai"
   }
 }

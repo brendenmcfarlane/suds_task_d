@@ -7,23 +7,41 @@ class OpenAIAPI(LLMInterface):
         self._client = OpenAI(api_key=OPEN_AI_API_KEY)
 
     def format_input(self, input:list[dict]) -> list[dict[str,str]]:
-        formatted_input = [{"role": "system"}, {"role": "user", "content": ""}]
+        formatted_input = [{"system_prompt": "", "text": ""}]
         for item in input:
             match item["type"]:
                 case "prompt":
-                    formatted_input[0]["content"] = item["prompt"]
+                    formatted_input[0]["system_prompt"] = item["prompt"]
                 case "text":
-                    formatted_input[1]["content"] =  formatted_input[1]["content"] + item["text"]
+                    formatted_input[0]["text"] =  formatted_input[0]["text"] + item["text"]
+                case "image_url":
+                    formatted_input[0]["image_url"] = item["image_url"]
         return formatted_input
     
     def _api_call(self, msg:list[dict]):
+        if len(msg[0].keys()) == 2:
+            content = msg[0]["text"]
+        elif len(msg[0].keys()) == 3:
+            text = msg[0]["text"]
+            image_url = msg[0]["image_url"]
+            content = [
+                {
+                    "type": "input_text",
+                    "text": text,
+                },
+                {
+                    "type": "input_image",
+                    "image_url": image_url
+                }
+            ]
+
         response = self._client.responses.create(
             model="gpt-5.4-mini",
-            instructions=msg[0]["content"],
+            instructions=msg[0]["system_prompt"],
             input=[
                 {
                     "role": "user",
-                    "content": msg[1]["content"]
+                    "content": content
                 }
             ]
         )
