@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Is the value of Favorable 38 in 2015",
+    "answer": "Yes",
+    "dataset": "ChartQA",
+    "image_url": "https://github.com/brendenmcfarlane/suds_task_d/tree/main/datasets/chartqa/images/query_1.jpg"
+  },
+  {
+    "question": "How many values are below 40 in Unfavorable graph?",
+    "answer": "6",
+    "dataset": "ChartQA",
+    "image_url": "https://github.com/brendenmcfarlane/suds_task_d/tree/main/datasets/chartqa/images/query_2.jpg"
+  },
+  {
+    "question": "In which year the value was 51?",
+    "answer": "2014",
+    "dataset": "ChartQA",
+    "image_url": "https://github.com/brendenmcfarlane/suds_task_d/tree/main/datasets/chartqa/images/query_3.jpg"
+  },
+  {
+    "question": "What is the sum favourable value in the year 2014 and 2015?",
+    "answer": "95",
+    "dataset": "ChartQA",
+    "image_url": "https://github.com/brendenmcfarlane/suds_task_d/tree/main/datasets/chartqa/images/query_4.jpg"
+  },
+  {
+    "question": "In which year the Mexican governments campaign against drugs traffickers is making 47 percent progress?",
+    "answer": "2012",
+    "dataset": "ChartQA",
+    "image_url": "https://github.com/brendenmcfarlane/suds_task_d/tree/main/datasets/chartqa/images/query_5.jpg"
+  },
+  {
+    "question": "What is the sum of making progress ,losing ground and same in the year 2011?",
+    "answer": "99",
+    "dataset": "ChartQA",
+    "image_url": "https://github.com/brendenmcfarlane/suds_task_d/tree/main/datasets/chartqa/images/query_6.jpg"
+  }
+]
