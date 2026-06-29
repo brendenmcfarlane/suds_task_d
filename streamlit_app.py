@@ -6,7 +6,7 @@ from frameworks.workflow_node import WorkFlowNode as WorkFlowNode
 import json
 
 
-test_path = "frameworks/outputs2.json"
+test_path = "datasets/chartqa/results.json"
 question_index = 0
 workflow_index = 0
 with open(test_path, "r") as f:

@@ -1,0 +1,11 @@
+{
+  "agents": ["faulty perception", "hand-off", "reasoning", "verifier"],
+  "edges": [
+    ["question", "faulty perception"],
+    ["question", "hand-off"],
+    ["question", "verifier"],
+    ["faulty perception", "hand-off"],
+    ["hand-off", "reasoning"],
+    ["reasoning", "verifier"]
+  ]
+}

@@ -2,5 +2,33 @@
   "test agent": {
     "prompt": "Answer the question, with your final answer formatted as an integer",
     "model": "openai"
+  },
+  "perception": {
+    "prompt": "You are a perception agent in a multi-agent system. You are the only agent with vision to see the chart. Write visual facts about what you observe in the chart so that another agent can answer the question. Do not state the final answer.",
+    "model": "default-vision"
+  },
+  "faulty perception": {
+    "prompt": "You are creating training data for an llm-judge. Create a response to the following prompt with one fact about the picture changed to an incorrect fact so that another agent can see what a failing perception agent looks like. Perception Agent Prompt: You are a perception agent in a multi-agent system. You are the only agent with vision to see the chart. Write visual facts about what you observe in the chart so that another agent can answer the question. Do not state the final answer.",
+    "model": "default-vision"
+  },
+  "hand-off": {
+    "prompt": "You are the hand-off agent of a multimodal, multiagent system. use the fact provide from the perception agent, along with the question to contstruct a clean, text-only premise that a reasoning agent will have to solve.",
+    "model": "default"
+  },
+  "faulty hand-off": {
+    "prompt": "You are creating training data for an llm-judge. Create a sample response from a 'faulty handoff agent' that will handoff an incomplete or misleading premise. Your answer should be formatted as if it came from the hand-off agent. Hand-off Agent Prompt: You are the hand-off agent of a multimodal, multiagent system. use the fact provide from the perception agent, along with the question to contstruct a clean, text-only premise that a reasoning agent will have to solve.",
+    "model": "default"
+  },
+  "reasoning": {
+    "prompt": "You are a reasoning agent in a multimodal, multi-agent system. The hand-off agent has supplied you a clean text only premise to a question about a visual chart. Solve the premisee using all the facts provided.",
+    "model": "default"
+  },
+  "faulty reasoning": {
+    "prompt": "You are creating training data for an llm-judge. Create a sample response from a 'faulty reasoning agent' that will hallucinate incorrect information and reach an incorrect solution. Your answer should be formatted as if it came from the reasoning agent. Reasoning Agent Prompt: You are a reasoning agent in a multimodal, multi-agent system. The hand-off agent has supplied you a clean text only premise to a question about a visual chart. Solve the premisee using all the facts provided.",
+    "model": "default"
+  },
+  "verifier": {
+    "prompt": "You are the verifier agent. Using the text portion of the question, along with the ground-truth. Determine if the reasoning agents answer is correct or not.",
+    "model": "default"
   }
 }
