@@ -6,7 +6,7 @@ class Query:
 
     def get_question(self):
         return self._question
-    def get_ground_truth(self):
+    def get_ground_truth(self) -> str | None:
         return self._ground_truth
 
 class MultiMediaQuery(Query):

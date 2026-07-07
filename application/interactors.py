@@ -4,6 +4,7 @@ from src.query import Query, MultiMediaQuery
 from src.events import EventProducer
 from application.agent_repo import AgentRepo
 from application.database_interface import DBInterface
+from application.llm_interface import LLMInterface
 from application.llm_interfaces_dict import LLM_INTERFACES
 from api.deepseek_client import DeepSeekAPI
 from dataclasses import dataclass
@@ -120,7 +121,49 @@ class ExecuteLLMJudgeI(ABC):
 class ExecuteLLMJudgeInteractor(ExecuteAgentI):
     def execute_judge_llm_uc(self, agent_id, json_str) -> str:
         judge = self._agent_repo.get_agent(agent_id)
+        judge.reset_agent()
         judge.receive_message({"type": "text", "text": json_str})
+        content = judge.get_client_input()
+        client = self._agent_repo.get_client(agent_id)
+        output = client.make_query(content)
+        judge.set_output(output)
+        return judge.get_output()[0].get("text")
+
+class SampleResponsesI(ABC):
+    def __init__(self, repo:AgentRepo):
+        self._repo = repo
+
+    @abstractmethod
+    def sample_n_responses_uc(self, n: int, agent_id: str) -> list[dict]:
+        pass
+
+class SampleResponsesInteractor(SampleResponsesI):
+    def sample_n_responses_uc(self, n: int, agent_id: str) -> list[dict]:
+        agent = self._repo.get_agent(agent_id)
+        if not isinstance(agent, AgentNode):
+            raise ValueError(f"Agent with id {agent_id} is not an instance of AgentNode.")
+        content = agent.get_client_input()
+        client = self._repo.get_client(agent_id)
+        if not isinstance(client, LLMInterface):
+            raise ValueError(f"Client with id {agent_id} is not an instance of LLMInterface.")
+        outputs = []
+        for i in range(n):
+            outputs.append(client.make_query(content))
+        return outputs
+
+class ExecuteLLMSelectorI(ABC):
+    def __init__(self, agent_repo):
+        self._agent_repo = agent_repo
+    @abstractmethod
+    def execute_judge_llm_uc(self, agent_id:str, json_strs:list[str]) ->str:
+        pass
+    
+class ExecuteLLMSelectorInteractor(ExecuteAgentI):
+    def execute_judge_llm_uc(self, agent_id:str, json_strs:list[str]) -> str:
+        judge = self._agent_repo.get_agent(agent_id)
+        judge.reset_agent()
+        for i, json_str in enumerate(json_strs):
+            judge.receive_message({"type": "text", "text": f"Response {i+1}: {json_str}"})
         content = judge.get_client_input()
         client = self._agent_repo.get_client(agent_id)
         output = client.make_query(content)
