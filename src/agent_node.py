@@ -30,7 +30,8 @@ class AgentNode:
                 inputs_to_remove.append(input)
         for input in inputs_to_remove:
             inputs.remove(input)
-        inputs.insert(0, {"type": "text", "text":text_input})
+        if text_input != "":
+            inputs.insert(0, {"type": "text", "text":text_input})
         return inputs
     def get_output(self):
         return self._output
@@ -40,11 +41,16 @@ class AgentNode:
         self._event_producer.publish(agent_action)
         return None
     def check_is_executed(self):
-        return (self._output != "")
+        return (self._output != {})
     def receive_message(self, message):
         ''' Precondition: <message> of the form { "type": "input_type", "input_type": "input data" }
         '''
         self._inputs.append(message)
+        return None
+    def reset_agent(self):
+        self._inputs = []
+        self._inputs.append({"type":"prompt", "prompt":self._prompt})
+        self._output = {}
         return None
     
     
