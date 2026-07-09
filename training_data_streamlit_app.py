@@ -35,6 +35,7 @@ def recursively_update_trajectories(state_space: graphviz.Digraph,
         j = recursively_update_trajectories(state_space, c, mas_state_list)
         state_space.edge(str(i), str(j))
         st.write(f"edge: ({str(i)}, {str(j)})")
+    return i
 
 trajectory_search_space = graphviz.Digraph()
 trajectory_search_space.attr(
