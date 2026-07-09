@@ -6,7 +6,7 @@ import json
 from src.mas_node import MASNode # TODO: create interface or smth
 from application.database_interface import PKLDB
 
-
+st.set_page_config(layout="wide")
 # upload training data
 test_path = "datasets/chartqa/results.pkl"
 pkl_db = PKLDB()
