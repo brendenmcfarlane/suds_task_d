@@ -52,11 +52,13 @@ left_key = col1.radio(
     "Select A State To View Partial Transcript",
     range(len(mas_state_list)),
     index=0,
+    key=f"action_{1}"
 )
 right_key = col2.radio(
     "Select A State To View Partial Transcript",
     range(len(mas_state_list)),
     index=0,
+    key=f"action_{2}"
 )
 
 if isinstance(left_key, int):
