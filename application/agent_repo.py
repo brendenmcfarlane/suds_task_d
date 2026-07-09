@@ -12,7 +12,7 @@ class AgentRepo():
             self._repo[id] = {"node": agent, "client": llm_client}
 
     def get_agent(self, id) -> AgentNode|None:
-        return self._repo[id]["node"]
+        return self._repo.get(id, {}).get("node", None)
     
     def set_agent(self, id:str, agent:AgentNode) -> None:
         self._repo[id]["node"] = agent

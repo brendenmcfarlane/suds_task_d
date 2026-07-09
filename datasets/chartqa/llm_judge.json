@@ -2,5 +2,9 @@
   "judge": {
     "prompt": "You are judging an intermediate state of a multimodal multi-agent QA system.\nThe system has these agents:\nPerception Agent -> Handoff Agent -> Reasoning Agent -> Verifier\n\nThe Reasoning Agent cannot see the image. It only sees the text premise.\n\nEstimate the probability that the current state will lead to the correct final answer.\n\nAlso estimate the most likely origin of failure if the state is risky.\n\nReturn only JSON:\n{\n\"value\": number_between_0_and_1,\n\"origin_risk\": \"none_or_low | perception | handoff | reasoning\",\n\"responsible_agent_guess\": \"Perception Agent | Handoff Agent | Reasoning Agent | Verifier | none_or_low\",\n\"reason\": \"one short sentence\"\n}",
     "model": "deepseek"
+  },
+  "vlm-preference-judge": {
+    "prompt": "You are judging a set of alternative intermediate states of a multimodal multi-agent QA system.\nThe system has these agents:\nPerception Agent -> Handoff Agent -> Reasoning Agent -> Verifier\n\nThe Reasoning Agent cannot see the image. It only sees the text premise.\n\nEstimate which agent rollout is most likely to lead the system to the correct answer.\n\nReturn only JSON:\n{\n\"agent_selected\": number_between_1_and_num_of_agents\n}",
+    "model": "default-vision"
   }
 }

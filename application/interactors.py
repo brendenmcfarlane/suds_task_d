@@ -9,6 +9,7 @@ from application.llm_interfaces_dict import LLM_INTERFACES
 from api.deepseek_client import DeepSeekAPI
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
+import random
 
 
 @dataclass
@@ -149,23 +150,30 @@ class SampleResponsesInteractor(SampleResponsesI):
         outputs = []
         for i in range(n):
             outputs.append(client.make_query(content))
+        for o in outputs:
+            agent.set_output(o)
         return outputs
 
 class ExecuteLLMSelectorI(ABC):
     def __init__(self, agent_repo):
         self._agent_repo = agent_repo
     @abstractmethod
-    def execute_judge_llm_uc(self, agent_id:str, json_strs:list[str]) ->str:
+    def execute_judge_llm_uc(self, agent_id:str, json_strs:list[str]):
         pass
     
 class ExecuteLLMSelectorInteractor(ExecuteAgentI):
-    def execute_judge_llm_uc(self, agent_id:str, json_strs:list[str]) -> str:
-        judge = self._agent_repo.get_agent(agent_id)
-        judge.reset_agent()
-        for i, json_str in enumerate(json_strs):
-            judge.receive_message({"type": "text", "text": f"Response {i+1}: {json_str}"})
+    def execute_judge_llm_uc(self, judge_id:str, json_strs:list[str]):
+        """ Assumes LLM judge returns JSON otf 
+        {\n\"agent_selected\": \"number_between_1_and_num_of_agents\"\n}
+        """
+        judge = self._agent_repo.get_agent(judge_id)
+        length = len(json_strs)
+        indices = list(range(length))
+        random.shuffle(indices)
+        for i in range(length):
+            judge.receive_message({"type": "text", "text": f"Response {i+1}: {json_strs[indices[i]]}"})
         content = judge.get_client_input()
-        client = self._agent_repo.get_client(agent_id)
+        client = self._agent_repo.get_client(judge_id)
         output = client.make_query(content)
-        judge.set_output(output)
-        return judge.get_output()[0].get("text")
+        return (output[0].get("text"))
+ 
