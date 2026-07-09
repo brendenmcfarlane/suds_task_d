@@ -1,12 +1,12 @@
 # responsible for the inpput output and role of an agent
 from src.events import Event, EventBus, AddAgentAction
 from dataclasses import dataclass
-from tests.test_bus import TEST_BUS
+from src.default_bus import DEFAULT_BUS
 
 
 
 class AgentNode:
-    def __init__(self, id="", prompt="", event_producer=TEST_BUS):
+    def __init__(self, id="", prompt="", event_producer=DEFAULT_BUS):
         self._id = id
         self._prompt = prompt
         self._inputs = []
