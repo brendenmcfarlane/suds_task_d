@@ -27,7 +27,7 @@ def recursively_update_trajectories(state_space: graphviz.Digraph,
                                     root_node: MASNode,
                                     mas_state_list: list):
     i = len(mas_state_list)
-    state_space.node(str(i), f"{root_node._acting_agent_id}\nResponse: {root_node._action_content}") 
+    state_space.node(str(i), f"{root_node._acting_agent_id}") # \nResponse: {root_node._action_content}
     mas_state_list.append(root_node)
 
     for c in root_node.get_children():
@@ -45,4 +45,12 @@ trajectory_search_space.attr(
 mas_state_list = []
 recursively_update_trajectories(trajectory_search_space, trajectory, mas_state_list)
 st.graphviz_chart(trajectory_search_space)
-st.write(trajectory_search_space.source)
+
+st.header("Compare Trajectories Below")
+col1, col2 = st.columns(2)
+state_key = col1.radio(
+    "Select A State To View Partial Transcript",
+    range(len(mas_state_list)),
+    format_func=lambda k: mas_state_list[k].get_partial_transcript(),
+    index=0,
+)
