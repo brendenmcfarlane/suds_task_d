@@ -44,3 +44,6 @@ trajectory_search_space.attr(
 mas_state_list = []
 recursively_update_trajectories(trajectory_search_space, trajectory, mas_state_list)
 st.graphviz_chart(trajectory_search_space)
+for ind in range(len(mas_state_list)):
+    st.write(mas_state_list[ind])
+st.write(trajectory_search_space.source)
