@@ -1,16 +1,10 @@
 from collections import deque
-from src.events import Event, EventProducer, EventBus, EventListener
+from src.events import Event, EventProducer, EventBus, EventListener, AddAgentAction, MASStateUpdate
 from dataclasses import dataclass
-from src.agent_node import AddAgentAction
 from tests.test_bus import TEST_BUS
 
 from src.mas_transcript import FullTranscript
 
-@dataclass
-class MASStateUpdate(Event):
-    question: str
-    topology: dict
-    transcript: list[str]
 
 class MAS(EventListener):
     def __init__(self, event_producer:EventProducer = TEST_BUS):

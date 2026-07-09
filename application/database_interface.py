@@ -1,16 +1,26 @@
+from abc import ABC, abstractmethod
 import json
-class DBInterface:
+import pickle
+
+class DBInterface(ABC):
+    @abstractmethod
     def read_in(self, path:str) -> object:
-        return object()
+        pass
+
+    @abstractmethod
     def write_to(self, data:object|str, path:str) -> None:
-        return None
+        pass
     
 class JSONDB(DBInterface):
     def read_in(self, path:str) -> object:
+        """ Precondition: path is a .json file
+        """
         with open(path, "r") as f:
             data = json.load(f)
         return data
     def write_to(self, data:object|str, path:str) -> None:
+        """ Precondition: path is a .json file
+        """
         with open(path, "w") as f:
             json.dump(data, f, indent=4)
         return None
@@ -18,9 +28,22 @@ class JSONDB(DBInterface):
         result = json.dumps(data, indent=4)
         return result
     def from_string(self, json_str) -> dict|list:
-        # json_str = json_str.replace("\n", "")
         result = json.loads(json_str)
         return result
+
+class PKLDB(DBInterface):
+    def read_in(self, path: str) -> object:
+        """ Precondition: path is a .pkl file
+        """
+        with open(path, "rb") as file:
+            loaded_data = pickle.load(file)
+        return loaded_data
+    
+    def write_to(self, data: object | str, path: str) -> None:
+        """ Precondition: path is a .pkl file
+        """
+        with open(path, "wb") as file:
+            pickle.dump(data, file)
     
 def main():
     json_db = JSONDB()
@@ -31,5 +54,6 @@ def main():
     print("")
 
     from_str_output = json_db.from_string("{'value': 1.0,'origin_risk': 'none_or_low','responsible_agent_guess': 'none_or_low','reason': 'The planner correctly computed the total eggs needed based on the given numbers, so the final answer is correct.'}")
+
 
 if __name__ == "__main__": main()

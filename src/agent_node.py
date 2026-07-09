@@ -1,13 +1,9 @@
 # responsible for the inpput output and role of an agent
-from src.events import Event, EventBus
+from src.events import Event, EventBus, AddAgentAction
 from dataclasses import dataclass
 from tests.test_bus import TEST_BUS
 
-@dataclass
-class AddAgentAction(Event):
-    agent_id: str
-    action_type: str
-    action_content: str
+
 
 class AgentNode:
     def __init__(self, id="", prompt="", event_producer=TEST_BUS):
