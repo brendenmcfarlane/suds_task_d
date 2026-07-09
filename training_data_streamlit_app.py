@@ -48,9 +48,12 @@ st.graphviz_chart(trajectory_search_space)
 
 st.header("Compare Trajectories Below")
 col1, col2 = st.columns(2)
-state_key = col1.radio(
+left_key = col1.radio(
     "Select A State To View Partial Transcript",
     range(len(mas_state_list)),
-    format_func=lambda k: mas_state_list[k].get_partial_transcript(),
     index=0,
 )
+if isinstance(left_key, int):
+    col1.subheader("Transcript")
+    t = mas_state_list[left_key].get_partial_transcript()
+    col1.write(t)
