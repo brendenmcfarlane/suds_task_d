@@ -27,7 +27,7 @@ def recursively_update_trajectories(state_space: graphviz.Digraph,
                                     root_node: MASNode,
                                     mas_state_list: list):
     i = len(mas_state_list)
-    state_space.node(str(i), f"{root_node._acting_agent_id}\nResponse: {root_node._action_content}")
+    state_space.node(str(i), f"{root_node._acting_agent_id}") #\nResponse: {root_node._action_content}
     mas_state_list.append(root_node)
 
     for c in root_node.get_children():
