@@ -28,13 +28,11 @@ def recursively_update_trajectories(state_space: graphviz.Digraph,
                                     mas_state_list: list):
     i = len(mas_state_list)
     state_space.node(str(i), f"{root_node._acting_agent_id}\nResponse: {root_node._action_content}") 
-    st.write(f"node: {str(i)}")
     mas_state_list.append(root_node)
 
     for c in root_node.get_children():
         j = recursively_update_trajectories(state_space, c, mas_state_list)
         state_space.edge(str(i), str(j))
-        st.write(f"edge: ({str(i)}, {str(j)})")
     return i
 
 trajectory_search_space = graphviz.Digraph()
