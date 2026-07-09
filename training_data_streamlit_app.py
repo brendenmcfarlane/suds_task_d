@@ -57,3 +57,12 @@ if isinstance(left_key, int):
     col1.subheader("Transcript")
     t = mas_state_list[left_key].get_partial_transcript()
     col1.write(t)
+right_key = col2.radio(
+    "Select A State To View Partial Transcript",
+    range(len(mas_state_list)),
+    index=0,
+)
+if isinstance(right_key, int):
+    col2.subheader("Transcript")
+    t = mas_state_list[right_key].get_partial_transcript()
+    col2.write(t)
