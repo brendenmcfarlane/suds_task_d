@@ -35,6 +35,12 @@ def recursively_update_trajectories(state_space: graphviz.Digraph,
         state_space.edge(str(i), str(j))
 
 trajectory_search_space = graphviz.Digraph()
+trajectory_search_space.attr(
+    rankdir="TB",      # Top to bottom
+    ranksep="1.2",     # Vertical spacing
+    nodesep="0.6",     # Horizontal spacing
+    splines="ortho",   # Optional: right-angle edges
+)
 mas_state_list = []
 recursively_update_trajectories(trajectory_search_space, trajectory, mas_state_list)
 st.graphviz_chart(trajectory_search_space)
