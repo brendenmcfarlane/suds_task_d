@@ -1,13 +1,13 @@
 from collections import deque
 from src.events import Event, EventProducer, EventBus, EventListener, AddAgentAction, MASStateUpdate
 from dataclasses import dataclass
-from tests.test_bus import TEST_BUS
+from src.default_bus import DEFAULT_BUS
 
 from src.mas_transcript import FullTranscript
 
 
 class MAS(EventListener):
-    def __init__(self, event_producer:EventProducer = TEST_BUS):
+    def __init__(self, event_producer:EventProducer = DEFAULT_BUS):
         self._agents = []
         self._adjacencies = {}
         self._sorted = False
