@@ -28,11 +28,13 @@ def recursively_update_trajectories(state_space: graphviz.Digraph,
                                     mas_state_list: list):
     i = len(mas_state_list)
     state_space.node(str(i), f"{root_node._acting_agent_id}") #\nResponse: {root_node._action_content}
+    st.write(f"node: {str(i)}")
     mas_state_list.append(root_node)
 
     for c in root_node.get_children():
         j = recursively_update_trajectories(state_space, c, mas_state_list)
         state_space.edge(str(i), str(j))
+        st.write(f"edge: ({str(i)}, {str(j)})")
 
 trajectory_search_space = graphviz.Digraph()
 trajectory_search_space.attr(
@@ -44,6 +46,4 @@ trajectory_search_space.attr(
 mas_state_list = []
 recursively_update_trajectories(trajectory_search_space, trajectory, mas_state_list)
 st.graphviz_chart(trajectory_search_space)
-for ind in range(len(mas_state_list)):
-    st.write(mas_state_list[ind])
 st.write(trajectory_search_space.source)
