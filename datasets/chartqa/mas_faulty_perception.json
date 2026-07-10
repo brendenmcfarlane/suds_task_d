@@ -4,6 +4,7 @@
     ["question", "faulty perception"],
     ["question", "hand-off"],
     ["question", "verifier"],
+    ["images", "faulty perception"],
     ["faulty perception", "hand-off"],
     ["hand-off", "reasoning"],
     ["reasoning", "verifier"]

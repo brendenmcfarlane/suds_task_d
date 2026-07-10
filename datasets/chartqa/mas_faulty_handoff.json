@@ -2,6 +2,7 @@
   "agents": ["perception", "faulty hand-off", "reasoning", "verifier"],
   "edges": [
     ["question", "perception"],
+    ["images", "perception"],
     ["question", "faulty hand-off"],
     ["question", "verifier"],
     ["perception", "faulty hand-off"],
