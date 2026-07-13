@@ -10,19 +10,27 @@ st.set_page_config(layout="wide")
 # upload training data
 test_path = "datasets/chartqa/results.pkl"
 pkl_db = PKLDB()
-trajectory = pkl_db.read_in(test_path)
+trajectories = pkl_db.read_in(test_path)
+assert isinstance(trajectories, dict)
 # init conditions
-question_index = 0
-workflow_index = 0
-# select question
-# question_key = st.radio(
-#     "Select A Question To View MAS Trajectories",
-#     traces.keys(),
-#     format_func=lambda k: traces[k]["0"][0]["question"],
-#     index=0,
-# )
+hyp_key = st.radio(
+    "Select Hyperparameter Set",
+    list(trajectories.keys()),
+    key=f"action_{5}"
+)
+query_key = st.radio(
+    "Select Question",
+    list(trajectories[hyp_key].keys()),
+    key=f"action_{3}"
+)
 
-# 
+workflow_key = st.radio(
+    "Select MAS Workflow",
+    list(trajectories[hyp_key][query_key].keys()),
+    key=f"action_{4}"
+)
+
+trajectory = trajectories[hyp_key][query_key][workflow_key]
 def recursively_update_trajectories(state_space: graphviz.Digraph, 
                                     root_node: MASNode,
                                     mas_state_list: list):

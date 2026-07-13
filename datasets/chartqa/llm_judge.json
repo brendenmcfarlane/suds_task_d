@@ -8,7 +8,7 @@
     "model": "default-vision"
   },
   "vlm-ranking-judge": {
-    "prompt": "You are judging a set of alternative intermediate states of a multimodal multi-agent QA system.\nThe system has these agents:\nPerception Agent -> Handoff Agent -> Reasoning Agent -> Verifier\n\nThe Reasoning Agent cannot see the image. It only sees the text premise.\n\nReturn only a JSON array of 0-based integer indices corresponding to the original order of the options.\nThe first integer should be the index of the best option, the second integer the next best, and so on.\nDo not include any explanation, markdown, or additional text.: [\nindex_of_best_agent, ..., index_of_worst_agent\n]",
+    "prompt": "You are judging a set of alternative intermediate states of a multimodal multi-agent QA system.\nThe system has these agents:\nPerception Agent -> Handoff Agent -> Reasoning Agent -> Verifier\n\nThe Reasoning Agent cannot see the image. It only sees the text premise.\n\nReturn only a JSON array of 0-based integer indices corresponding to the original order of the options.\nThe first integer should be the index of the best option, the second integer the next best, and so on.\nDo not include any explanation, markdown, or additional text. If there are N responses, the list should contain exactly one copy of every integer from 0 to N-1, and no other numbers: [\nindex_of_best_agent, ..., index_of_worst_agent\n]",
     "model": "default-vision"
   }
 }
