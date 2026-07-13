@@ -85,4 +85,4 @@ if isinstance(right_key, int):
     for o in out:
         t.extend(o.split("\n"))
     for line in t:
-        col1.write(line)
+        col2.write(line)
