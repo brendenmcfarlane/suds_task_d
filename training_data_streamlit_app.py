@@ -71,14 +71,18 @@ right_key = col2.radio(
 
 if isinstance(left_key, int):
     col1.subheader("Transcript")
+    t = []
     out = mas_state_list[left_key].get_partial_transcript()
-    t = out.split("\n")
+    for o in out:
+        t.extend(o.split("\n"))
     for line in t:
         col1.write(line)
 
 if isinstance(right_key, int):
     col2.subheader("Transcript")
+    t = []
     out = mas_state_list[right_key].get_partial_transcript()
-    t = out.split("\n")
+    for o in out:
+        t.extend(o.split("\n"))
     for line in t:
         col1.write(line)
