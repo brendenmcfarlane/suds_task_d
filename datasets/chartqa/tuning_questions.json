@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What was the average annual total income per household of those in the top decile group?",
+        "answer": "186600",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_1309.png"
+    },
+    {
+        "question": "Which gender is represented by the red color line?",
+        "answer": "Male",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_228.png"
+    },
+    {
+        "question": "What's the average of two smallest bar?",
+        "answer": "70.535",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_51.png"
+    },
+    {
+        "question": "What did 92 percent of the top 400 charities and NPOs use for their organization?",
+        "answer": "Facebook",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_1518.png"
+    },
+    {
+        "question": "What's the percentage of revenue contributes by people under 44?",
+        "answer": "40.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_563.png"
+    },
+    {
+        "question": "What is the median of the three least raised biotech venture capitals?",
+        "answer": "12000",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_501.png"
+    },
+    {
+        "question": "Between which two years , the GDP of New Zealand is maximum?",
+        "answer": "2009",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_457.png"
+    },
+    {
+        "question": "What is the total of Bad and Good in the Remain?",
+        "answer": "100",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_285.png"
+    },
+    {
+        "question": "What was the percentage of school children who read eBooks outside of class in 2016?",
+        "answer": "11.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_1508.png"
+    },
+    {
+        "question": "Which country has a higher share of the population using safely managed drinking water over the years?",
+        "answer": "Bosnia and Herzegovina",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/tuning_images/query_209.png"
+    }
+]
