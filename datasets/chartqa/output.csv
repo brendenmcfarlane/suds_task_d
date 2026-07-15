@@ -1,0 +1,5 @@
+,question,hyperparameters,MAS workflow,ground truth,MAS answer
+0,Is the value of Favorable 38 in 2015,"(3, 3)",datasets/chartqa/mas_clean.json,Yes,Yes
+1,Is the value of Favorable 38 in 2015,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,Yes,Yes
+2,How many values are below 40 in Unfavorable graph?,"(3, 3)",datasets/chartqa/mas_clean.json,6,6
+3,How many values are below 40 in Unfavorable graph?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,6,6
