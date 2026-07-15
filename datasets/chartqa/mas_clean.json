@@ -2,10 +2,12 @@
   "agents": ["perception", "hand-off", "reasoning", "verifier"],
   "edges": [
     ["question", "perception"],
-    ["images", "perception"],
     ["question", "hand-off"],
     ["question", "verifier"],
+    ["images", "perception"],
     ["perception", "hand-off"],
+    ["perception", "verifier"],
+    ["hand-off", "verifier"],
     ["hand-off", "reasoning"],
     ["reasoning", "verifier"]
   ]

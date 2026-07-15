@@ -6,6 +6,8 @@
     ["question", "faulty hand-off"],
     ["question", "verifier"],
     ["perception", "faulty hand-off"],
+    ["perception", "verifier"],
+    ["faulty hand-off", "verifier"],
     ["faulty hand-off", "reasoning"],
     ["reasoning", "verifier"]
   ]

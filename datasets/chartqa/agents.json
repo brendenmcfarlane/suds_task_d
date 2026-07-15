@@ -28,7 +28,7 @@
     "model": "default"
   },
   "verifier": {
-    "prompt": "You are the verifier agent. Using the text portion of the question, along with the ground-truth. Determine if the reasoning agents answer is correct or not.",
+    "prompt": "You are the verifier agent of a multi-agent system. The system has these agents:\nPerception Agent -> Handoff Agent -> Reasoning Agent -> Verifier\n\nThe Reasoning Agent cannot see the image. It only sees the text premise.\n\n Using the text portion of the question, along with the other agent’s answers, Determine if the reasoning agent reached the correct answer. Then return nothing more than the correct answer to the question, do not include any other explanation.",
     "model": "default"
   }
 }
