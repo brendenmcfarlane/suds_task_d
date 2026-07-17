@@ -1,0 +1,3002 @@
+[
+    {
+        "question": "What was the Marshall Islands' gross domestic product in 2019?",
+        "answer": "0.24",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20957.png"
+    },
+    {
+        "question": "Is the sum of Germany and Asia pacific revenue bigger than rest of Europe including America?",
+        "answer": "Yes",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3653.png"
+    },
+    {
+        "question": "Which value represents the largest percentage of the graph?",
+        "answer": "Favor",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_824.png"
+    },
+    {
+        "question": "How many divorces were there in South Korea in 2020?",
+        "answer": "106500",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24304.png"
+    },
+    {
+        "question": "What was the export value of Italian PDO white wines in the first semester of 2020?",
+        "answer": "455",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9017.png"
+    },
+    {
+        "question": "How much did Senegal's real GDP increase in 2019?",
+        "answer": "4.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8029.png"
+    },
+    {
+        "question": "What's the sum of the lowest two shares of respondents?",
+        "answer": "15",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7319.png"
+    },
+    {
+        "question": "What is the average forecast on social network users in India for the next two years?",
+        "answer": "435.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4577.png"
+    },
+    {
+        "question": "In what year did Playboy have the highest global circulation?",
+        "answer": "1975",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24137.png"
+    },
+    {
+        "question": "What is the difference in the  value of agricultural land per capita between the two places?",
+        "answer": "0.27",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3363.png"
+    },
+    {
+        "question": "What was the year with the highest share of SMEs that made a profit?",
+        "answer": "2017",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22179.png"
+    },
+    {
+        "question": "What percentage of the population is in civil partnership?",
+        "answer": "0.2",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24275.png"
+    },
+    {
+        "question": "What percentage of the Belgian population was in poverty in 2018?",
+        "answer": "15.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17875.png"
+    },
+    {
+        "question": "What is the sum of the two largest bar?",
+        "answer": "661",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2853.png"
+    },
+    {
+        "question": "Since what year has the number of tourist arrivals at accommodation establishments in North Macedonia been increasing?",
+        "answer": "2010",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19354.png"
+    },
+    {
+        "question": "What is Singapore's inflation rate projected to be in 2026?",
+        "answer": "1.48",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13830.png"
+    },
+    {
+        "question": "What is the number of Sperm whales killed in the world in 1958?",
+        "answer": "20549",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1046.png"
+    },
+    {
+        "question": "What is the average value of all Orange bars?",
+        "answer": "15",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_981.png"
+    },
+    {
+        "question": "What is the total value of the two bars?",
+        "answer": "79.8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3075.png"
+    },
+    {
+        "question": "What is the ratio between men and woman data in scotland ?",
+        "answer": "0.714285714",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7169.png"
+    },
+    {
+        "question": "What was the total number of auction sales of modern and contemporary art in India in 2015?",
+        "answer": "59",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7628.png"
+    },
+    {
+        "question": "When did the number of physical attacks begin to increase in Europe?",
+        "answer": "2014",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16564.png"
+    },
+    {
+        "question": "What was the most downloaded game in the Google Play Store in April 2021?",
+        "answer": "Bridge Race",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19731.png"
+    },
+    {
+        "question": "What's the percentage value of \"Hurt less\" opinion?",
+        "answer": "0.05",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_874.png"
+    },
+    {
+        "question": "What percentage of the population in the UK used cocaine in the previous year?",
+        "answer": "2.7",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18395.png"
+    },
+    {
+        "question": "What is the difference between the highest and the lowest dark blue bar?",
+        "answer": "1.38",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6520.png"
+    },
+    {
+        "question": "What is the global OTC sales market estimated to grow to by 2028?",
+        "answer": "1194",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23467.png"
+    },
+    {
+        "question": "How much money was invested in road infrastructure in Slovakia in 2017?",
+        "answer": "749.85",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21300.png"
+    },
+    {
+        "question": "What was the average size of the world's leading electronic products companies in 2013?",
+        "answer": "35.08",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22986.png"
+    },
+    {
+        "question": "How much money did German tourists spend in 2020?",
+        "answer": "38.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17861.png"
+    },
+    {
+        "question": "How many Swiss francs did Schindler Group generate in revenue in the fiscal year of 2020?",
+        "answer": "11",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13751.png"
+    },
+    {
+        "question": "Which colr bar has the highest value?",
+        "answer": "Blue",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7228.png"
+    },
+    {
+        "question": "How many LCD TVs did Foxconn ship in 2018?",
+        "answer": "16.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14724.png"
+    },
+    {
+        "question": "What was the contribution of the travel and tourism industry to Belgium's GDP in 2017?",
+        "answer": "24.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19314.png"
+    },
+    {
+        "question": "What was the unemployment rate in Curaao in 2015?",
+        "answer": "11.7",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9120.png"
+    },
+    {
+        "question": "What percentage of Americans stated that they derive their personal values from their faith or religion?",
+        "answer": "30.32",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26528.png"
+    },
+    {
+        "question": "What is the median value of the graph?",
+        "answer": "40",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_217.png"
+    },
+    {
+        "question": "How many workers died in Great Britain in 2019/20?",
+        "answer": "111",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24869.png"
+    },
+    {
+        "question": "What country had the highest fixed-line telephone penetration rate in 2019?",
+        "answer": "Barbados",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26410.png"
+    },
+    {
+        "question": "How many categories of countries are represented?",
+        "answer": "11",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5236.png"
+    },
+    {
+        "question": "In what year did teenagers consume less pornography?",
+        "answer": "2003",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22881.png"
+    },
+    {
+        "question": "How many nights were spent at tourist accommodation establishments in Slovakia between 2007 and 2018?",
+        "answer": "15.19",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13853.png"
+    },
+    {
+        "question": "How much did the ad spend of Wyndham Worldwide Corporation amount to in 2017?",
+        "answer": "111",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11154.png"
+    },
+    {
+        "question": "What was the second highest rated Swedish thriller series on Netflix in 2020?",
+        "answer": "Caliphate",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9110.png"
+    },
+    {
+        "question": "How many points increased from  2010 to 2017 ?",
+        "answer": "481",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5099.png"
+    },
+    {
+        "question": "What is the sum of gray bar?",
+        "answer": "166",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7060.png"
+    },
+    {
+        "question": "What was the total sales of the recreational fishing industry in 2016?",
+        "answer": "67.91",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25023.png"
+    },
+    {
+        "question": "What percentage of global GDP did the United States account for in 2020?",
+        "answer": "15.84",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11034.png"
+    },
+    {
+        "question": "How many color bar are there in the graph?",
+        "answer": "4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3354.png"
+    },
+    {
+        "question": "What is the value of the purple bar?",
+        "answer": "22.8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3044.png"
+    },
+    {
+        "question": "What was the value of U.S. wholesale beer, wine, and distilled alcoholic beverage inventories in 2019?",
+        "answer": "19937",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12454.png"
+    },
+    {
+        "question": "How many color bar are there in the graph?",
+        "answer": "3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3174.png"
+    },
+    {
+        "question": "How much were the gate receipts of the Chicago White Sox in 2019?",
+        "answer": "46",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11768.png"
+    },
+    {
+        "question": "What was the export value of furniture in 2003?",
+        "answer": "76.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27775.png"
+    },
+    {
+        "question": "How many tourists visited the Uffizi Gallery in 2020?",
+        "answer": "455960",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11275.png"
+    },
+    {
+        "question": "What was the average fertility rate for Indian women in 2018?",
+        "answer": "2.22",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19787.png"
+    },
+    {
+        "question": "How many adults were there in Indonesia in 2019?",
+        "answer": "172.91",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8672.png"
+    },
+    {
+        "question": "How much revenue was collected by the Nova Scotia government through taxes on goods and services in 2019?",
+        "answer": "3238",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26452.png"
+    },
+    {
+        "question": "How many Institution of corruption are shown in the bar chart?",
+        "answer": "6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1428.png"
+    },
+    {
+        "question": "What was the US household debt to GDP ratio in the third quarter of 2020?",
+        "answer": "79.38",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23916.png"
+    },
+    {
+        "question": "Who was the third largest e-dealer between January and December 2018?",
+        "answer": "Dave Smith Motors",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15059.png"
+    },
+    {
+        "question": "What was the average cost of a two-course meal for two people in New York City?",
+        "answer": "84.62",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17576.png"
+    },
+    {
+        "question": "What is the difference between the total to Nonmetaalic mineral productas?",
+        "answer": "617",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4095.png"
+    },
+    {
+        "question": "How many people were registered in 2010?",
+        "answer": "4.44",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12408.png"
+    },
+    {
+        "question": "Is the total of all the green bars greater than 180?",
+        "answer": "Yes",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2587.png"
+    },
+    {
+        "question": "How much has the price of EpiPen increased from 2007 to 2014?",
+        "answer": "222",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18094.png"
+    },
+    {
+        "question": "What was the consumer expenditure on recreational books in the United States in 2019?",
+        "answer": "22.42",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9611.png"
+    },
+    {
+        "question": "How many British pounds were spent on disposable contact lenses in 2014?",
+        "answer": "134465545",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27182.png"
+    },
+    {
+        "question": "How much money did the Pebble e-paper watch raise on Kickstarter?",
+        "answer": "10.27",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20604.png"
+    },
+    {
+        "question": "What is the average amount of milk produced per cow in the United States by 2020?",
+        "answer": "23774",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20272.png"
+    },
+    {
+        "question": "What was the value of the assets of central banks globally in 2019?",
+        "answer": "30.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28241.png"
+    },
+    {
+        "question": "What was Italy's economic inactivity rate of people aged 15 to 64 years in the fourth quarter of 2020?",
+        "answer": "35.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11855.png"
+    },
+    {
+        "question": "What was the most visited paid attraction in South West England in 2019?",
+        "answer": "Stonehenge",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18923.png"
+    },
+    {
+        "question": "What is the difference between the domestic and total market in 2019?",
+        "answer": "5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6305.png"
+    },
+    {
+        "question": "What percentage of public schools recorded a theft?",
+        "answer": "33.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23092.png"
+    },
+    {
+        "question": "What's the percentage of 8th-grade students who used nicotine?",
+        "answer": "6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2284.png"
+    },
+    {
+        "question": "How many color bars are used in the graph?",
+        "answer": "8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1506.png"
+    },
+    {
+        "question": "What is the expected revenue from clinical IT systems by 2022?",
+        "answer": "14572.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21673.png"
+    },
+    {
+        "question": "How many people wear contact lenses in the UK and ROI in 1992?",
+        "answer": "1.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7472.png"
+    },
+    {
+        "question": "In what year did the number of hospital beds in Hungary peak?",
+        "answer": "2000",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25336.png"
+    },
+    {
+        "question": "What was the value of the food service channel in South Africa in dollars in 2018?",
+        "answer": "6.8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9487.png"
+    },
+    {
+        "question": "If you take the average of Germany, Japan, and France data, what will be the result for two categories?",
+        "answer": "[35, 64]",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2619.png"
+    },
+    {
+        "question": "Which state had the third highest heart disease death rate in the US in 2019?",
+        "answer": "Arkansas",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28032.png"
+    },
+    {
+        "question": "How many people were employed in the financial services sector in London in 2014?",
+        "answer": "345400",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7633.png"
+    },
+    {
+        "question": "Which country has the highest unfavorable rate?",
+        "answer": "Argentina",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3314.png"
+    },
+    {
+        "question": "What payment method did 67 percent of companies use in their online shop?",
+        "answer": "PayPal",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12460.png"
+    },
+    {
+        "question": "What country has the second most deaths as a result of terrorism?",
+        "answer": "Nigeria",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9113.png"
+    },
+    {
+        "question": "What was the tier 1 common capital ratio of the Bank of America in 2020?",
+        "answer": "13.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14862.png"
+    },
+    {
+        "question": "What was Dustin Johnson's average score as of August 2020?",
+        "answer": "9.96",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20835.png"
+    },
+    {
+        "question": "How many dollars did consumers plan to spend on candy for the Halloween season in 2020?",
+        "answer": "2.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27337.png"
+    },
+    {
+        "question": "What is the largest country in the subregion?",
+        "answer": "Nicaragua",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11959.png"
+    },
+    {
+        "question": "Which country has the lowest volume?",
+        "answer": "Mosambique",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5334.png"
+    },
+    {
+        "question": "Where was the lowest marriage rate recorded?",
+        "answer": "Lombardy",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12135.png"
+    },
+    {
+        "question": "Which brand ranked highest of the men's blades brands sold in the UK?",
+        "answer": "Gillette",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11646.png"
+    },
+    {
+        "question": "What is the share of votes in Scotland by remain?",
+        "answer": "62",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6870.png"
+    },
+    {
+        "question": "In what year were 65 percent of home owners asked how they planned their home improvement projects?",
+        "answer": "2015",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21965.png"
+    },
+    {
+        "question": "What was the estimated value of the Charlotte Hornets in 2021?",
+        "answer": "1500",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8753.png"
+    },
+    {
+        "question": "What is the global demand for polycarbonates forecast to increase to by 2024?",
+        "answer": "5.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23002.png"
+    },
+    {
+        "question": "What was the youth unemployment rate in Mozambique in 2020?",
+        "answer": "6.87",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22403.png"
+    },
+    {
+        "question": "What was the sales value of craft beer in Ontario in 2015?",
+        "answer": "240",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21239.png"
+    },
+    {
+        "question": "Is there any bar with the value of 40?",
+        "answer": "No",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2344.png"
+    },
+    {
+        "question": "What was the total consumption of frozen yogurt in the U.S. in 2017?",
+        "answer": "378",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19965.png"
+    },
+    {
+        "question": "How many available seat miles did Delta Air Lines have in 2020?",
+        "answer": "134339",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20811.png"
+    },
+    {
+        "question": "Look at Female Householders with related children under 18, Find the red bar, its value 20%, What is that bar  ?",
+        "answer": "Associate degree",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5612.png"
+    },
+    {
+        "question": "What percentage of respondents used Swish in 2017?",
+        "answer": "75",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17507.png"
+    },
+    {
+        "question": "What was the number of cars sold in Greece in 2013?",
+        "answer": "1400",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23897.png"
+    },
+    {
+        "question": "What percentage of lesbians said they drink Vodka?",
+        "answer": "44",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8026.png"
+    },
+    {
+        "question": "What is the ratio Milennials and Boomers age group?",
+        "answer": "3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5359.png"
+    },
+    {
+        "question": "How many new cases of coronavirus were announced in North Macedonia on June 10, 2021?",
+        "answer": "18",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15152.png"
+    },
+    {
+        "question": "In what country does the annual survey show how participation in different snow sport activities has changed over several years?",
+        "answer": "United Kingdom",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12438.png"
+    },
+    {
+        "question": "What was NSG's revenue in the first quarter of 2021?",
+        "answer": "1.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8850.png"
+    },
+    {
+        "question": "What was the average expenditure on housekeeping supplies per consumer unit in the United States in 2019?",
+        "answer": "765.56",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20976.png"
+    },
+    {
+        "question": "What was the youth unemployment rate in Sweden in 2020?",
+        "answer": "18",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22554.png"
+    },
+    {
+        "question": "What percentage of the global market did Saudi Arabia account for between 2016 and 2020?",
+        "answer": "11",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18255.png"
+    },
+    {
+        "question": "What is the average of all red bars ?",
+        "answer": "6.72",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7201.png"
+    },
+    {
+        "question": "How many different sectors were covered by retail chains in Hungary in 2021?",
+        "answer": "19",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22438.png"
+    },
+    {
+        "question": "What is the expected EBITDA margin between 2019 and 2021?",
+        "answer": "26.7",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10631.png"
+    },
+    {
+        "question": "In what month and year did 7 percent of respondents say they were very worried about the possibility of a terror attack in Sweden?",
+        "answer": "January 2017",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27623.png"
+    },
+    {
+        "question": "In what year did the global financial crisis hit Spain?",
+        "answer": "2007",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25181.png"
+    },
+    {
+        "question": "What was the age-specific death rate for males aged 90 or over in 2018?",
+        "answer": "235.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25432.png"
+    },
+    {
+        "question": "Which country is higher in 2018?",
+        "answer": "Syria",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1837.png"
+    },
+    {
+        "question": "What province produces the most natural gas in Canada?",
+        "answer": "Alberta",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7510.png"
+    },
+    {
+        "question": "What was the average exchange rate from Indonesian rupiah to Euros in 2020?",
+        "answer": "17330",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26933.png"
+    },
+    {
+        "question": "Which color has the lowest value of fertile rate in the graph?",
+        "answer": "Dark blue",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1056.png"
+    },
+    {
+        "question": "How many Facebook followers did the Toronto Raptors have in March 2021?",
+        "answer": "2.65",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26384.png"
+    },
+    {
+        "question": "What was the highest number of illegal border crossings detected in 2019?",
+        "answer": "83333",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10341.png"
+    },
+    {
+        "question": "What was the number of IoT transport units in 2017?",
+        "answer": "2.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13150.png"
+    },
+    {
+        "question": "How many people are expected to migrate between 2045 and 2050?",
+        "answer": "11.69",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8778.png"
+    },
+    {
+        "question": "What is the difference between the net for Sometimes and Often?",
+        "answer": "345",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2173.png"
+    },
+    {
+        "question": "What is the lowest value of light blue bar?",
+        "answer": "2729",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6918.png"
+    },
+    {
+        "question": "What demographic group did 35 percent of Debenhams customers belong to?",
+        "answer": "AB",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18590.png"
+    },
+    {
+        "question": "What was the peak amount of government investment in 2009?",
+        "answer": "55819",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23529.png"
+    },
+    {
+        "question": "What was the population of the London metropolitan area in 2019?",
+        "answer": "14.37",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10316.png"
+    },
+    {
+        "question": "What do the navy blue bars represent?",
+        "answer": "Public sector",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6972.png"
+    },
+    {
+        "question": "How much were the player expenses of the Los Angeles Chargers in the 2019 season?",
+        "answer": "208",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21482.png"
+    },
+    {
+        "question": "Who was the most popular player on Facebook as of October 2020?",
+        "answer": "Romelu Lukaku",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16363.png"
+    },
+    {
+        "question": "What was the average cost of an uncomplicated vaginal birth in 2013?",
+        "answer": "32093",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12969.png"
+    },
+    {
+        "question": "What was Micron Technology's sales in China in 2018?",
+        "answer": "17357",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21069.png"
+    },
+    {
+        "question": "What was the value of PSA Airlines' operating revenue in dollars in 2020?",
+        "answer": "541.7",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15040.png"
+    },
+    {
+        "question": "What given reason was the 2nd most popular for why digital shopped abandon their cart?",
+        "answer": "Discount code doesn't work",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4686.png"
+    },
+    {
+        "question": "What was the share of public sources payments in the United States in 2014?",
+        "answer": "43.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8684.png"
+    },
+    {
+        "question": "What is the percentage of Barclays?",
+        "answer": "9.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4580.png"
+    },
+    {
+        "question": "What was the net revenue of Petrobras in 2018?",
+        "answer": "90.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8086.png"
+    },
+    {
+        "question": "How many Mexican pesos could one US dollar buy at the end of November 2020?",
+        "answer": "20.04",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24416.png"
+    },
+    {
+        "question": "What was the import value of fuel and lubricants to Kenya in December 2020?",
+        "answer": "20.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18399.png"
+    },
+    {
+        "question": "What was the induced economic impact of the U.S. sporting arms and ammunition industry in 2019?",
+        "answer": "18.87",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17666.png"
+    },
+    {
+        "question": "How many people in Belgium were younger than 18 in 2020?",
+        "answer": "2312040",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8614.png"
+    },
+    {
+        "question": "How many masjids had a capacity between 201 and 300 people?",
+        "answer": "279",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24483.png"
+    },
+    {
+        "question": "What was the market value of the e-commerce industry in India in 2018?",
+        "answer": "50",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19160.png"
+    },
+    {
+        "question": "How much was domestic travel spending in London in 2013?",
+        "answer": "14",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14043.png"
+    },
+    {
+        "question": "What was Twitter's advertising revenue in the first quarter of 2021?",
+        "answer": "899",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19126.png"
+    },
+    {
+        "question": "What was Finland's most scarcely populated region?",
+        "answer": "Lapland",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13092.png"
+    },
+    {
+        "question": "When was the highest number of British banknotes produced in one year?",
+        "answer": "2019",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11866.png"
+    },
+    {
+        "question": "Which has a difference of 5% among men and women?",
+        "answer": "All with hypertension",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7191.png"
+    },
+    {
+        "question": "What is the difference between the highest and the second highest pie?",
+        "answer": "28.7",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4537.png"
+    },
+    {
+        "question": "What percentage of votes did Sverigedemokraterna receive?",
+        "answer": "17.53",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16701.png"
+    },
+    {
+        "question": "What was Ohio's highest unemployment rate in 2010?",
+        "answer": "10.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16176.png"
+    },
+    {
+        "question": "What is the sum of the last two green bars??",
+        "answer": "Rising prices",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2983.png"
+    },
+    {
+        "question": "How much money did Abercrombie & Fitch spend on advertising in 2020?",
+        "answer": "118.54",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24770.png"
+    },
+    {
+        "question": "Which country/region has the highest value of DALYs rate from alcohol and drug use disorders?",
+        "answer": "Eswatini",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1548.png"
+    },
+    {
+        "question": "When did the number of asylum applications in Finland peak?",
+        "answer": "2015",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28221.png"
+    },
+    {
+        "question": "How many sexual encounters to China and Mexico have combined?",
+        "answer": "245",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3597.png"
+    },
+    {
+        "question": "What is the difference between the highest and lowest projected expenditure?",
+        "answer": "90.8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5013.png"
+    },
+    {
+        "question": "What was the value of digital advertising in India in financial year 2020?",
+        "answer": "199",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20565.png"
+    },
+    {
+        "question": "What is the of reserves in Srilanka, Brazil and Malaysia?",
+        "answer": "15440",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5247.png"
+    },
+    {
+        "question": "What was HPE's R&D expenditure in 2020?",
+        "answer": "1874",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25959.png"
+    },
+    {
+        "question": "What was the value of goods exported from the EU in 2020?",
+        "answer": "1931.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22303.png"
+    },
+    {
+        "question": "What was the youth unemployment rate in Malawi in 2020?",
+        "answer": "7.55",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13838.png"
+    },
+    {
+        "question": "What was the highest selling liquid soap brand in the UK in 2014?",
+        "answer": "Carex",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19548.png"
+    },
+    {
+        "question": "What's the color of bar whose percentage value is 26 in TOTAL category?",
+        "answer": "Green",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2086.png"
+    },
+    {
+        "question": "How many hobbits live in Middle Earth?",
+        "answer": "246",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12613.png"
+    },
+    {
+        "question": "What was the infant mortality rate in Peru in 2019?",
+        "answer": "10.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12509.png"
+    },
+    {
+        "question": "How many new immigrants arrived in the Northwest Territories between July 1, 2019 and June 30, 2020?",
+        "answer": "161",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19531.png"
+    },
+    {
+        "question": "What year is the consumer price index of the UK expected to change by a percentage of between 2 and 2.1 percent?",
+        "answer": "2023",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15342.png"
+    },
+    {
+        "question": "How many MAUs did Facebook have in the first quarter of 2021?",
+        "answer": "423",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17343.png"
+    },
+    {
+        "question": "How many Malaysians lived in Singapore in 2019?",
+        "answer": "952261",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8243.png"
+    },
+    {
+        "question": "What was the North American luggage market share of Samsonite/American Tourister in 2010?",
+        "answer": "12.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18133.png"
+    },
+    {
+        "question": "How many constant U.S. dollars did arms export from Denmark to Portugal in 2018?",
+        "answer": "16",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28211.png"
+    },
+    {
+        "question": "What is the sum of the largest difference and the smallest difference in opinions between the two candidates?",
+        "answer": "18",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_381.png"
+    },
+    {
+        "question": "What was the value of IT, software and computer services exports in 2013?",
+        "answer": "8589",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22296.png"
+    },
+    {
+        "question": "How many confirmed cases of COVID-19 were there in Wallonia?",
+        "answer": "423802",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23621.png"
+    },
+    {
+        "question": "Is the color of largest segment light blue?",
+        "answer": "Yes",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3758.png"
+    },
+    {
+        "question": "What country was Hungary's most important export partner in 2019?",
+        "answer": "Germany",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22343.png"
+    },
+    {
+        "question": "How much was Kakao's advertising revenue in 2018?",
+        "answer": "669.81",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17600.png"
+    },
+    {
+        "question": "What was the occupancy rate of hotels in Mallorca in 2017?",
+        "answer": "79.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24609.png"
+    },
+    {
+        "question": "When did the number of cars in band K begin to decrease?",
+        "answer": "2011",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8748.png"
+    },
+    {
+        "question": "What was the operating costs of UnitedHealth Group in the segment of medical costs in 2020?",
+        "answer": "159396",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25190.png"
+    },
+    {
+        "question": "How much Japanese yen did Denso spend in research and development costs in 2020?",
+        "answer": "501.49",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21008.png"
+    },
+    {
+        "question": "What was Haiti's gross domestic product in dollars in 2019?",
+        "answer": "14.29",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11151.png"
+    },
+    {
+        "question": "How many colored segments are less than 20%?",
+        "answer": "3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3660.png"
+    },
+    {
+        "question": "How many people were affected by the drought in India in 1987?",
+        "answer": "300",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9622.png"
+    },
+    {
+        "question": "What was the number of social network users in Australia in 2017?",
+        "answer": "17.19",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14251.png"
+    },
+    {
+        "question": "What's the percentage value of people that appreciate the intervention?",
+        "answer": "56",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5187.png"
+    },
+    {
+        "question": "What was the net income attributable to Tesla's common stockholders?",
+        "answer": "721",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14872.png"
+    },
+    {
+        "question": "What is the sum of the years confidence rate obtained 2001 to 2003?",
+        "answer": "84",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_111.png"
+    },
+    {
+        "question": "What was the conversion rate of e-commerce websites in the fashion sector in Q2 2016?",
+        "answer": "21",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23666.png"
+    },
+    {
+        "question": "What was the global trade value of goods exported throughout the world in dollars in 2019?",
+        "answer": "19014.76",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23587.png"
+    },
+    {
+        "question": "What was Cineworld Group's global revenue in 2020?",
+        "answer": "575.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8635.png"
+    },
+    {
+        "question": "What accounts for the majority of Square Enix's revenues?",
+        "answer": "Digital entertainment",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16408.png"
+    },
+    {
+        "question": "What was the share of consumers visiting a pub weekly in 2017?",
+        "answer": "29",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24972.png"
+    },
+    {
+        "question": "What is the difference between maximum price of beer and minimum price of hot dog over the years?",
+        "answer": "4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5859.png"
+    },
+    {
+        "question": "What was the revenue from smartphone sales in China in dollars in Q1 2018?",
+        "answer": "41.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16640.png"
+    },
+    {
+        "question": "Which country has its hours worked value between 1.8k and 1.9k?",
+        "answer": "[Belgium, New Zealand]",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3491.png"
+    },
+    {
+        "question": "What was the market share of the top five banks in Poland between 2009 and 2015?",
+        "answer": "48.79",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20494.png"
+    },
+    {
+        "question": "What percentage of Austria's market did broker accounts for in 2013?",
+        "answer": "35.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9784.png"
+    },
+    {
+        "question": "How many stores did Walmart have a year earlier?",
+        "answer": "371",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27584.png"
+    },
+    {
+        "question": "How much did the UK spend on mining, manufacturing and construction in the previous year?",
+        "answer": "2870",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20942.png"
+    },
+    {
+        "question": "What year did respondents report better prospects for self-storage facilities?",
+        "answer": "2016",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19959.png"
+    },
+    {
+        "question": "Which gender does the light blue indicate?",
+        "answer": "Men",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6522.png"
+    },
+    {
+        "question": "What is Nigeria's largest city?",
+        "answer": "Lagos",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12257.png"
+    },
+    {
+        "question": "What was Sweden's life expectancy for women between 2016 and 2019?",
+        "answer": "84.29",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24990.png"
+    },
+    {
+        "question": "What is the number of confirmed coronavirus cases in 85+ age group in Slovenia in 2021?",
+        "answer": "9381",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5298.png"
+    },
+    {
+        "question": "What was Amazon's net sales in the United States in 2020?",
+        "answer": "263.52",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17679.png"
+    },
+    {
+        "question": "How many dollars did compression garments generate in the United States in 2010?",
+        "answer": "8.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25519.png"
+    },
+    {
+        "question": "What was Prada's global net sales in 2020?",
+        "answer": "2390.87",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17383.png"
+    },
+    {
+        "question": "What's the the average of all the values below 30?",
+        "answer": "19",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23.png"
+    },
+    {
+        "question": "How many Volvo cars were sold in Finland in 2018?",
+        "answer": "9176",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19631.png"
+    },
+    {
+        "question": "How many 3.5\" hard disk drives did Seagate ship in 2014?",
+        "answer": "119.61",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10626.png"
+    },
+    {
+        "question": "How many daily active Status users did WhatsApp have worldwide as of the latest reported period?",
+        "answer": "450",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16015.png"
+    },
+    {
+        "question": "What is the difference of value in Not satisfied and Don't know?",
+        "answer": "20",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_643.png"
+    },
+    {
+        "question": "Which year shows an abnormal change in the bar value?",
+        "answer": "2018",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3670.png"
+    },
+    {
+        "question": "What was the sales of power transistors worldwide in 2019?",
+        "answer": "17.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11899.png"
+    },
+    {
+        "question": "What was the second most popular mobile retail store in the U.S. in September 2018?",
+        "answer": "Walmart",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27257.png"
+    },
+    {
+        "question": "How many companies did Portugal's domestic insurance market have in 2015?",
+        "answer": "45",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26441.png"
+    },
+    {
+        "question": "How many drive-in cinema screens were there in the US in 2019?",
+        "answer": "559",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10081.png"
+    },
+    {
+        "question": "What is the highest abortion rate per thousand women in Sweden?",
+        "answer": "20.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7851.png"
+    },
+    {
+        "question": "Which year recorded the highest number of poverty surveys in Moldova over the years?",
+        "answer": "2014",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1903.png"
+    },
+    {
+        "question": "What was the market share of PlentyOfFish?",
+        "answer": "19.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7897.png"
+    },
+    {
+        "question": "How many jobs will be lost by the sugar tax?",
+        "answer": "144903",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18596.png"
+    },
+    {
+        "question": "Is the sum value of the smallest two bars is greater than the largest bar value?",
+        "answer": "Yes",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2585.png"
+    },
+    {
+        "question": "What's the ratio (A: B) of the largest navy blue bar and the second smallest light blue bar?",
+        "answer": "0.294444444",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2811.png"
+    },
+    {
+        "question": "What was the sales volume of citrus marmalades in 2019?",
+        "answer": "36164",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23988.png"
+    },
+    {
+        "question": "How many British pounds are generated on matchdays?",
+        "answer": "683",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15929.png"
+    },
+    {
+        "question": "What was the Consumer Sentiment Index in June 2021?",
+        "answer": "78.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26744.png"
+    },
+    {
+        "question": "What's the value of the Male bar?",
+        "answer": "78",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2272.png"
+    },
+    {
+        "question": "Which film did J.K. Rowling and James Bond lose to in terms of revenue?",
+        "answer": "Star Wars",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24928.png"
+    },
+    {
+        "question": "How many pounds worth of food did households in the UK purchase in 2019?",
+        "answer": "103379",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17460.png"
+    },
+    {
+        "question": "What was the population density per square kilometer in the Central federal district?",
+        "answer": "60.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25099.png"
+    },
+    {
+        "question": "What is the average of highest and lowest value?",
+        "answer": "3196.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4125.png"
+    },
+    {
+        "question": "What year had the most enterprises?",
+        "answer": "2016",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4212.png"
+    },
+    {
+        "question": "What was LG Electronics' net income in 2019?",
+        "answer": "161.01",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21623.png"
+    },
+    {
+        "question": "What was Apache Corporation's total assets in dollars in 2020?",
+        "answer": "12743",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15579.png"
+    },
+    {
+        "question": "When did Infinity end up selling three million copies?",
+        "answer": "January 2014",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18020.png"
+    },
+    {
+        "question": "Which of the marital status category has the least difference between the Male and Female population?",
+        "answer": "Married",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5415.png"
+    },
+    {
+        "question": "What was the unemployment rate in Connecticut in 2020?",
+        "answer": "7.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8690.png"
+    },
+    {
+        "question": "What country was Iran's main import partner in 2019?",
+        "answer": "China",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17295.png"
+    },
+    {
+        "question": "What state was the largest producer of spices in India in 2020?",
+        "answer": "Madhya Pradesh",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19881.png"
+    },
+    {
+        "question": "Which province had the highest percentage of Netflix subscribers in Canada in 2016?",
+        "answer": "Alberta",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13870.png"
+    },
+    {
+        "question": "Find the average of all blue bars which belongs to Obama and around off the result?",
+        "answer": "51",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6945.png"
+    },
+    {
+        "question": "In 2020, Burberry's comparable sales depreciated by what percentage?",
+        "answer": "3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17676.png"
+    },
+    {
+        "question": "What was the percentage of Americans in the bottom 25th percentile equal to?",
+        "answer": "77",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24753.png"
+    },
+    {
+        "question": "What was the infant mortality rate in the Cote d'Ivoire in 2019?",
+        "answer": "58.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23923.png"
+    },
+    {
+        "question": "What was the infant mortality rate in Cameroon in 2019?",
+        "answer": "50.2",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22610.png"
+    },
+    {
+        "question": "What is the value of highest bar?",
+        "answer": "101895",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6596.png"
+    },
+    {
+        "question": "What was the second largest car rental company in the EU in 2015?",
+        "answer": "Sixt",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23366.png"
+    },
+    {
+        "question": "Which country was Qatar's most important import partner in 2019?",
+        "answer": "United States",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10219.png"
+    },
+    {
+        "question": "What is the top brand of shower personal care products sold in the UK?",
+        "answer": "Radox",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13079.png"
+    },
+    {
+        "question": "How many stores did Quiksilver operate in 2014?",
+        "answer": "683",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22014.png"
+    },
+    {
+        "question": "Who has hit the most home runs in San Francisco Giants franchise history?",
+        "answer": "Willie Mays",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12241.png"
+    },
+    {
+        "question": "What was the unemployment rate in Indonesia in 2020?",
+        "answer": "4.11",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14360.png"
+    },
+    {
+        "question": "What was the previous year's production volume of avocados?",
+        "answer": "6.77",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16964.png"
+    },
+    {
+        "question": "What was the population of Croatia in 2019?",
+        "answer": "4.05",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14799.png"
+    },
+    {
+        "question": "What's the share of Japan?",
+        "answer": "13",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3970.png"
+    },
+    {
+        "question": "How much RAM did 45.12 percent of Steam users have in March 2021?",
+        "answer": "16 GB",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8128.png"
+    },
+    {
+        "question": "What's the difference between the tallest and shortest bars?",
+        "answer": "10",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7367.png"
+    },
+    {
+        "question": "Which category has the same value for \"A major reason\" and \"A minor reason\"?",
+        "answer": "Unable to arrange child care",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2103.png"
+    },
+    {
+        "question": "What was the inflation rate in Turkmenistan in 2019?",
+        "answer": "5.09",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11083.png"
+    },
+    {
+        "question": "What is the color of smallest section of the chart?",
+        "answer": "gray",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_694.png"
+    },
+    {
+        "question": "How many Indian rupees were deposits from private Indian banks in fiscal year 2020?",
+        "answer": "41.04",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19282.png"
+    },
+    {
+        "question": "What region was the most visited by Mexican tourists in 2019?",
+        "answer": "Western Europe",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18155.png"
+    },
+    {
+        "question": "What is the estimated value of the gaming market in Southeast Asia in 2017?",
+        "answer": "2216",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7545.png"
+    },
+    {
+        "question": "What was the direct tourism contribution of Durban to the GDP of South Africa for 2026?",
+        "answer": "1.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19287.png"
+    },
+    {
+        "question": "Which opinion has doubled with the years over?",
+        "answer": "Unsure",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7221.png"
+    },
+    {
+        "question": "What's the percentage of adults who read Print book in 2014?",
+        "answer": "69",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_240.png"
+    },
+    {
+        "question": "What are the total net values of 'HS or less' students and 'Some college or more' students?",
+        "answer": "150",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2331.png"
+    },
+    {
+        "question": "How many pharmacies did Apotek 1 operate in Norway in 2021?",
+        "answer": "993",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23199.png"
+    },
+    {
+        "question": "How many times have Americans won the Nobel Prize in economics?",
+        "answer": "57",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20684.png"
+    },
+    {
+        "question": "Which country's data is presented in this graph?",
+        "answer": "Cape Verde",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1934.png"
+    },
+    {
+        "question": "How many exajoules will renewable energy consumption reach by 2050?",
+        "answer": "161",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7506.png"
+    },
+    {
+        "question": "What's the ratio two smallest bar (A: B, A<B)?",
+        "answer": "0.043055556",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2213.png"
+    },
+    {
+        "question": "What color  bar does Tanzania represent?",
+        "answer": "gray",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1034.png"
+    },
+    {
+        "question": "How much is the ticket price for the Baltimore Orioles?",
+        "answer": "52",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28173.png"
+    },
+    {
+        "question": "How much box office revenue did 'Toy Story 4' generate by December 2019?",
+        "answer": "434.04",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10832.png"
+    },
+    {
+        "question": "what's the maximum value in the blue bar?",
+        "answer": "51",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2326.png"
+    },
+    {
+        "question": "How many Russians visited Helsinki in 2019?",
+        "answer": "123996",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16852.png"
+    },
+    {
+        "question": "What was the national revenue of the Green Bay Packers in 2018?",
+        "answer": "255.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7803.png"
+    },
+    {
+        "question": "Which state had the highest goat population in India in 2019?",
+        "answer": "Uttar Pradesh",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9130.png"
+    },
+    {
+        "question": "In what year was the share of companies selling online in Greece measured at the same level?",
+        "answer": "2017",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21926.png"
+    },
+    {
+        "question": "What was the market value of the French market between 2015 and 2019?",
+        "answer": "14",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15911.png"
+    },
+    {
+        "question": "For the first three years, what is the sum of the remaining life expectancy averages of both genders?",
+        "answer": "114.52",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7025.png"
+    },
+    {
+        "question": "What country had the second-highest share of smokers?",
+        "answer": "Italy",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17674.png"
+    },
+    {
+        "question": "Which revenue has the highest share?",
+        "answer": "Retail*",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4340.png"
+    },
+    {
+        "question": "In what year did the per capita real GDP of New Jersey stand at 63,492 chained?",
+        "answer": "2012",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23707.png"
+    },
+    {
+        "question": "What was the market value of earphones and headphones in 2017?",
+        "answer": "14.55",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18716.png"
+    },
+    {
+        "question": "What was the forecast number of inbound tourists in Qatar by 2022?",
+        "answer": "3.7",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18886.png"
+    },
+    {
+        "question": "How much did India import in Indian rupees in fiscal year 2020?",
+        "answer": "93.71",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15493.png"
+    },
+    {
+        "question": "What was the market share of UniCredit's loans in Bosnia and Herzegovina in 2017?",
+        "answer": "23",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7967.png"
+    },
+    {
+        "question": "Who owned 24 percent of Facebook in June 2011?",
+        "answer": "Mark Zuckerberg",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25715.png"
+    },
+    {
+        "question": "What was the average cost of a 30-second TV commercial during the 76th Golden Globes?",
+        "answer": "720",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15503.png"
+    },
+    {
+        "question": "How many Grand Slam tournament victories has Serena Williams won?",
+        "answer": "23",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26465.png"
+    },
+    {
+        "question": "What is the best selling car brand in Canada?",
+        "answer": "Ford",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13343.png"
+    },
+    {
+        "question": "What is the October 2019 forecast for 2019?",
+        "answer": "662.99",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6244.png"
+    },
+    {
+        "question": "What is the sum value of Iceland and Mexico?",
+        "answer": "8.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3095.png"
+    },
+    {
+        "question": "Does sum of smallest two bar is greater the the value of largest bar?",
+        "answer": "No",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3181.png"
+    },
+    {
+        "question": "How much was the turnover of Godrej Consumer Products at the end of financial year 2020?",
+        "answer": "54.74",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21598.png"
+    },
+    {
+        "question": "What was the average Canadian dollar per kilogram for wool producers in Quebec in 2018?",
+        "answer": "0.57",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14129.png"
+    },
+    {
+        "question": "As of the last measured period, what was the overall brand story completion rate?",
+        "answer": "91",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11614.png"
+    },
+    {
+        "question": "What is the forecasted unit shipments of VR devices in 2019?",
+        "answer": "2.2",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13884.png"
+    },
+    {
+        "question": "How much money did CVS Health generate from its pharmacy services segment in 2020?",
+        "answer": "141.94",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13475.png"
+    },
+    {
+        "question": "What was the share of agriculture in Burundi's gross domestic product in 2019?",
+        "answer": "28.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15308.png"
+    },
+    {
+        "question": "What was the value of the coffee and tea shipment in the United States in 2016?",
+        "answer": "13.25",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23895.png"
+    },
+    {
+        "question": "Which age group is represented by the pink color line?",
+        "answer": "50-69 years old",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1780.png"
+    },
+    {
+        "question": "Who has been responsible for the majority of Walmart's sales?",
+        "answer": "Walmart U.S.",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22069.png"
+    },
+    {
+        "question": "How many M&A deals were completed in 2020?",
+        "answer": "184",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21417.png"
+    },
+    {
+        "question": "What is the only Asian country that Dior excludes from its revenue?",
+        "answer": "Japan",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21179.png"
+    },
+    {
+        "question": "What's the sum of all the three attitudes in Latin America?",
+        "answer": "84",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3229.png"
+    },
+    {
+        "question": "What's the sum of the smallest and the largest difference between green and blue bars?",
+        "answer": "93",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1991.png"
+    },
+    {
+        "question": "How much money did the environmental industry generate in 2015?",
+        "answer": "363.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13198.png"
+    },
+    {
+        "question": "What was the rheumatoid arthritis treatment market expected to grow to by 2020?",
+        "answer": "9.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23867.png"
+    },
+    {
+        "question": "How many goals has Gerd M14ller scored for Bayern Munich?",
+        "answer": "515",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11123.png"
+    },
+    {
+        "question": "How much money did Ubisoft generate in digital net bookings in 2020-21?",
+        "answer": "1609",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26238.png"
+    },
+    {
+        "question": "Between what year did the total assets of central banks worldwide increase?",
+        "answer": "2002",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28240.png"
+    },
+    {
+        "question": "Which year has the highest employment rate",
+        "answer": "2020",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3585.png"
+    },
+    {
+        "question": "Who received 5.6 million dollars in salary in 2019?",
+        "answer": "Bastian Schweinsteiger",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8152.png"
+    },
+    {
+        "question": "What is the total percentage of respondents who go frequently for movie to theaters ?",
+        "answer": "29",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6283.png"
+    },
+    {
+        "question": "What is the difference between the favor and not in favor of death penalty in the year 1971?",
+        "answer": "9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6237.png"
+    },
+    {
+        "question": "What year was Microsoft's global revenue year?",
+        "answer": "2002",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17578.png"
+    },
+    {
+        "question": "How much was the R&D expenditure of PhRMA member companies in 2019?",
+        "answer": "83",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14705.png"
+    },
+    {
+        "question": "What area has most rainfall days?",
+        "answer": "Rochester, New York",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4598.png"
+    },
+    {
+        "question": "What was Slovenia's house price index in the quarter ending June 2020?",
+        "answer": "135.56",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13829.png"
+    },
+    {
+        "question": "How much more did Merck gain from life science than healthcare in 2020?",
+        "answer": "876",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6017.png"
+    },
+    {
+        "question": "Where did the majority of unemployed people in Denmark come from in 2020?",
+        "answer": "North Denmark Region",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9132.png"
+    },
+    {
+        "question": "How much were the gate receipts of the New York Yankees in dollars in 2019?",
+        "answer": "287",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15164.png"
+    },
+    {
+        "question": "What was the forecast for the Mexican economy by the end of 2019?",
+        "answer": "0.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8190.png"
+    },
+    {
+        "question": "How many countries have supporting ratings over 50%?",
+        "answer": "9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2475.png"
+    },
+    {
+        "question": "How many passenger cars were produced worldwide in 2020?",
+        "answer": "55.83",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14525.png"
+    },
+    {
+        "question": "Who has played the most games in Red Sox franchise history?",
+        "answer": "Carl Yastrzemski",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26482.png"
+    },
+    {
+        "question": "Who has the most RBI in New York Yankees franchise history?",
+        "answer": "Carlos Delgado",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28229.png"
+    },
+    {
+        "question": "What was the value of U.S. product shipments of vinegar and cider in 2016?",
+        "answer": "682.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28053.png"
+    },
+    {
+        "question": "How many Fortune 500 CEOs did not have an active account on any social network during the most recent survey period?",
+        "answer": "300",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18038.png"
+    },
+    {
+        "question": "How many Substantive bills were passed by Congress in 2003?",
+        "answer": "54",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3213.png"
+    },
+    {
+        "question": "Between which two\ufffd years government spending is maximum?",
+        "answer": "[1930, 1940]",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1662.png"
+    },
+    {
+        "question": "What was the second most popular sports media company in the U.S. in 2020?",
+        "answer": "Turner Sports",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21374.png"
+    },
+    {
+        "question": "How many refugees were living in Turkey at the end of 2019?",
+        "answer": "3579531",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17718.png"
+    },
+    {
+        "question": "How many units of apparel did the adidas Group produce in 2020?",
+        "answer": "465",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27399.png"
+    },
+    {
+        "question": "Which color shows 8 percent in the Pie segment?",
+        "answer": "Blue",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_488.png"
+    },
+    {
+        "question": "How many countries have over 20k researchers?",
+        "answer": "3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3061.png"
+    },
+    {
+        "question": "What was the Inditex Group's global net income in 2010?",
+        "answer": "1104",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24697.png"
+    },
+    {
+        "question": "How much non-mineral non-hazardous waste was produced in France in 2018?",
+        "answer": "95.66",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27815.png"
+    },
+    {
+        "question": "In what year was a peak in sales of the Vauxhall Corsa observed?",
+        "answer": "2003",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7750.png"
+    },
+    {
+        "question": "What colour is used to represent United States in the chart ?",
+        "answer": "Blue",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5454.png"
+    },
+    {
+        "question": "What was the smartphone shopping conversion rate during the Thanksgiving to Cyber Monday weekend?",
+        "answer": "2.7",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13322.png"
+    },
+    {
+        "question": "What was the U.S. average freight revenue per ton-mile in domestic air traffic in dollar cents in 2018?",
+        "answer": "137.49",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15918.png"
+    },
+    {
+        "question": "Which state decriminalized abortion in 2019?",
+        "answer": "Oaxaca",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15778.png"
+    },
+    {
+        "question": "How many years has approximately 71% life expectancy of male?",
+        "answer": "4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7009.png"
+    },
+    {
+        "question": "In what year did Brose's revenue decline?",
+        "answer": "2009",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13146.png"
+    },
+    {
+        "question": "What is red line data country?",
+        "answer": "Maldives",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1926.png"
+    },
+    {
+        "question": "What is the lowest percentage value in April 2020 shown in light grey line chart ?",
+        "answer": "49",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5399.png"
+    },
+    {
+        "question": "How many dollars were invested in Japan in 2019?",
+        "answer": "131.79",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12423.png"
+    },
+    {
+        "question": "What's the ratio(A:B) of largest value of green graph and smallest value of blue graph?",
+        "answer": "1.634722222",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_75.png"
+    },
+    {
+        "question": "What was the average price of sea scallops in the United States in 2019?",
+        "answer": "9.41",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12798.png"
+    },
+    {
+        "question": "What percentage of its domestic box office revenue did American Sniper generate after its nomination?",
+        "answer": "90.4",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8695.png"
+    },
+    {
+        "question": "What was the population of France in 2019?",
+        "answer": "65.48",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25697.png"
+    },
+    {
+        "question": "What was LG's index score?",
+        "answer": "112.2",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25732.png"
+    },
+    {
+        "question": "How many people suffered from hearing loss in 2019?",
+        "answer": "430",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14914.png"
+    },
+    {
+        "question": "What was Slovakia's gross domestic product in 2019?",
+        "answer": "104.09",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9352.png"
+    },
+    {
+        "question": "What was the population of the San Diego-Chula Vista-Carlsbad metropolitan area in 2020?",
+        "answer": "3305462",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13866.png"
+    },
+    {
+        "question": "What was Groupon's global revenue in the first quarter of 2021?",
+        "answer": "263.82",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22830.png"
+    },
+    {
+        "question": "What age range was the highest death rate from liver cirrhosis in the U.S. in 2017?",
+        "answer": "75-84 years",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23942.png"
+    },
+    {
+        "question": "In what year did the average book price in the UK begin to increase?",
+        "answer": "2005",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25674.png"
+    },
+    {
+        "question": "How much revenue did Ubisoft generate in the fourth quarter of the fiscal year 2020-21?",
+        "answer": "501.8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18216.png"
+    },
+    {
+        "question": "What percentage of Danish households owned a smartphone in 2012?",
+        "answer": "50",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21693.png"
+    },
+    {
+        "question": "What was the sales of Neutrogena in the United States in 2019?",
+        "answer": "94.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23545.png"
+    },
+    {
+        "question": "Who scored 2,400 ranking points as of October 12, 2020?",
+        "answer": "Fabio Fognini",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15952.png"
+    },
+    {
+        "question": "Which two years has the highest number average number of days?",
+        "answer": "[2014, 2015]",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5077.png"
+    },
+    {
+        "question": "What is the total percentage of people who think Hollywood does a good job of portraying racial minorities?",
+        "answer": "116",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6227.png"
+    },
+    {
+        "question": "How many deals were there in 2013 for primary and secondary buyouts?",
+        "answer": "669",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9727.png"
+    },
+    {
+        "question": "What is the annual maximum salary for 10years experience in service ?",
+        "answer": "125000",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7138.png"
+    },
+    {
+        "question": "When does the gap between girls and boys become largest?",
+        "answer": "1910",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1921.png"
+    },
+    {
+        "question": "What was the most widely trusted political news source among Democrats?",
+        "answer": "CNN",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18983.png"
+    },
+    {
+        "question": "How much was spent on public libraries in 2012/13?",
+        "answer": "963.28",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24113.png"
+    },
+    {
+        "question": "In what year did the Asia Pacific region account for more than 20 percent of elevator and escalator sales?",
+        "answer": "2010",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17771.png"
+    },
+    {
+        "question": "What is the percentage of people in India say having an increasing number of people of many different races ,ethnic group and nationalities in their country makes it a better place to live ?",
+        "answer": "0.68",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2002.png"
+    },
+    {
+        "question": "What percentage of respondents had 101 to 200 followers on Instagram in March 2015?",
+        "answer": "11",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24514.png"
+    },
+    {
+        "question": "What was the penetration rate of rear view cameras in 2015?",
+        "answer": "68",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10281.png"
+    },
+    {
+        "question": "At how many points did the line representing Zambia and Thailand crossed each other?",
+        "answer": "1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1878.png"
+    },
+    {
+        "question": "In which year maximum number of hours were spent on Educational child care(Non working women)?",
+        "answer": "2003",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1648.png"
+    },
+    {
+        "question": "What was the earnings ratio of female to male workers aged between 16 and 24 years in the fourth quarter of 2020?",
+        "answer": "95.36",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19147.png"
+    },
+    {
+        "question": "What percentage of 55-64 year olds will use a smartphone by 2020?",
+        "answer": "87",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15628.png"
+    },
+    {
+        "question": "How many nominations did Netflix receive for the 2021 Golden Globes?",
+        "answer": "22",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16482.png"
+    },
+    {
+        "question": "What was the age group with the largest share of potential increased usage of e-mail in the upcoming year?",
+        "answer": "39",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27946.png"
+    },
+    {
+        "question": "How many mobile connections were there in Germany in 2020?",
+        "answer": "150",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17408.png"
+    },
+    {
+        "question": "What is the sum, if we add dark blue and green color?",
+        "answer": "28",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5163.png"
+    },
+    {
+        "question": "Which value is represented by the red color line?",
+        "answer": "Maximum ozone hole area",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1868.png"
+    },
+    {
+        "question": "What was Barco's revenue in 2020?",
+        "answer": "770.1",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16645.png"
+    },
+    {
+        "question": "Identify the category from the given value,\ufffd 29,30,28,8 ?",
+        "answer": "Rich & poor",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2630.png"
+    },
+    {
+        "question": "How many monthly sessions per user did Netflix have?",
+        "answer": "19",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27901.png"
+    },
+    {
+        "question": "What is the maximum value of blue bar?",
+        "answer": "8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6094.png"
+    },
+    {
+        "question": "What's the percentage of using Whatsapp?",
+        "answer": "84",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2250.png"
+    },
+    {
+        "question": "How many dollars did China export to the U.S. in 2020?",
+        "answer": "199.22",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19503.png"
+    },
+    {
+        "question": "What's the ratio (A: B) of medians of the first three yellow and green bars from the top?",
+        "answer": "2.3625",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2231.png"
+    },
+    {
+        "question": "How much did the UK spend on cultural services in 2019/20?",
+        "answer": "4.05",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22130.png"
+    },
+    {
+        "question": "What drug showed the highest growth rate among all of Sanofi's best-selling pharmaceutical drugs?",
+        "answer": "Dupixent",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_28245.png"
+    },
+    {
+        "question": "What was the largest mobile gaming market in Southeast Asia in 2016?",
+        "answer": "Indonesia",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7712.png"
+    },
+    {
+        "question": "What was the peak of Venezuela's external debt between 2000 and 2016?",
+        "answer": "29.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13235.png"
+    },
+    {
+        "question": "What is the median usage across all years?",
+        "answer": "3279.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3933.png"
+    },
+    {
+        "question": "What was the global Facebook penetration rate?",
+        "answer": "28.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18672.png"
+    },
+    {
+        "question": "How much did the sales of stationery, office and party supplies in Canada in the first quarter of 2013?",
+        "answer": "639.87",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8072.png"
+    },
+    {
+        "question": "What was Kuehne + Nagel's worldwide revenue in Swiss francs in the fiscal year of 2020?",
+        "answer": "23812",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18975.png"
+    },
+    {
+        "question": "Who has the most RBI in franchise history?",
+        "answer": "Mike Schmidt",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19486.png"
+    },
+    {
+        "question": "What is the average of Smallest two bars?",
+        "answer": "73.895",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1307.png"
+    },
+    {
+        "question": "How much did Baidu's revenue increase in the most recent quarter?",
+        "answer": "25",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20300.png"
+    },
+    {
+        "question": "What is the sum of major threat distribution between India and Indonesia??",
+        "answer": "87",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2691.png"
+    },
+    {
+        "question": "How much did Foot Locker spend on advertising in 2015?",
+        "answer": "166",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_13742.png"
+    },
+    {
+        "question": "How much did advertisers have to pay to air a 30-second commercial during the Super Bowl in 2021?",
+        "answer": "5.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21545.png"
+    },
+    {
+        "question": "What was Missouri's unemployment rate in 2010?",
+        "answer": "3.3",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19130.png"
+    },
+    {
+        "question": "What was the number of Polish Opel cars registered in 2013?",
+        "answer": "18828",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18526.png"
+    },
+    {
+        "question": "How many people were housed in Italy's youth detention centers in 2014?",
+        "answer": "365",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17135.png"
+    },
+    {
+        "question": "What was Ferrari's R&D expenditure in 2017?",
+        "answer": "657",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10371.png"
+    },
+    {
+        "question": "How much money did \"1917\" and \"Sonic The Hedgehog\" earn?",
+        "answer": "204.41",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8549.png"
+    },
+    {
+        "question": "What is the lowest value in blue bar?",
+        "answer": "759.39",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6698.png"
+    },
+    {
+        "question": "What was Denver's score out of 100?",
+        "answer": "85.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21950.png"
+    },
+    {
+        "question": "What was the inflation rate in Belize in 2020?",
+        "answer": "0.12",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23473.png"
+    },
+    {
+        "question": "What percentage of the German voter population did the most recent election show?",
+        "answer": "76.2",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10300.png"
+    },
+    {
+        "question": "What percentage of respondents in 2012 reported the lack of computers for students as the most common obstacle faced by US classroom teachers?",
+        "answer": "55",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_7826.png"
+    },
+    {
+        "question": "What was the area with the highest incidence of dog bites?",
+        "answer": "Merseyside",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8708.png"
+    },
+    {
+        "question": "What was the value of the global next generation sequencing based monitoring and diagnostic test market in 2018?",
+        "answer": "3354.8",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12974.png"
+    },
+    {
+        "question": "What is the sum of two highest values?",
+        "answer": "1182",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4293.png"
+    },
+    {
+        "question": "In what year is it estimated that the fertility rate of Sweden will be 1.9 children per woman?",
+        "answer": "2020",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21156.png"
+    },
+    {
+        "question": "What percentage of the Dominican Republic's GDP has the travel and tourism sector exceeded for three consecutive years?",
+        "answer": "16.15",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9835.png"
+    },
+    {
+        "question": "What was the pass rate for passenger carrying vehicles between 2007/2008 and 2017/2018?",
+        "answer": "58.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14987.png"
+    },
+    {
+        "question": "How much did Trafigura's deal in Vostok Oil cost?",
+        "answer": "5.73",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10365.png"
+    },
+    {
+        "question": "What was the national debt of Albania in 2016?",
+        "answer": "73.18",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24642.png"
+    },
+    {
+        "question": "What's the color of bars which represents \"Confidence\"?",
+        "answer": "Green",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2382.png"
+    },
+    {
+        "question": "Bad and Good line crossed each other after which year?",
+        "answer": "2007",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_310.png"
+    },
+    {
+        "question": "How much revenue did Intel post in the fourth quarter of 2021?",
+        "answer": "333",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_15022.png"
+    },
+    {
+        "question": "In what year did the per capita real GDP of Maryland stand at 61,926 chained?",
+        "answer": "2012",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20359.png"
+    },
+    {
+        "question": "How many Choice Hotels International hotel rooms were there as of January 1, 2014?",
+        "answer": "507483",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18453.png"
+    },
+    {
+        "question": "What's the difference between two countries in limit its military role?",
+        "answer": "32",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3281.png"
+    },
+    {
+        "question": "Is the median of all blue bars greater than 45?",
+        "answer": "No",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2405.png"
+    },
+    {
+        "question": "How many mobile subscriptions were registered for every 100 people in Chad between 2000 and 2016?",
+        "answer": "44.48",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17622.png"
+    },
+    {
+        "question": "What is the highest value of 55 to 64 years?",
+        "answer": "110970",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6989.png"
+    },
+    {
+        "question": "How many suicides occurred on the British rail network in the 2019/20 financial year?",
+        "answer": "283",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16581.png"
+    },
+    {
+        "question": "How many years have a value of 36.6%?",
+        "answer": "2",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4345.png"
+    },
+    {
+        "question": "Which country is the largest consumer of natural rubber worldwide?",
+        "answer": "Asia",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11441.png"
+    },
+    {
+        "question": "What's the percentage of people who think it's important to increase security along US and Mexico border?",
+        "answer": "68",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_2259.png"
+    },
+    {
+        "question": "Who was the Italian female runner scoring the highest number of ranking points in the women's marathon and half marathon as of December 2020?",
+        "answer": "Sara Dossena",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8009.png"
+    },
+    {
+        "question": "How many people live in the country?",
+        "answer": "6909",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_12113.png"
+    },
+    {
+        "question": "How much of Videotron's revenue came from its internet services?",
+        "answer": "3376.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9343.png"
+    },
+    {
+        "question": "When did the poverty rate reach its peak?",
+        "answer": "2010",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5174.png"
+    },
+    {
+        "question": "What company sold 77.56 million smartphones in China in 2017?",
+        "answer": "Oppo",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_14363.png"
+    },
+    {
+        "question": "What is the forecast market size of ASIC chips in billion U.S. dollars in 2026?",
+        "answer": "28.05",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27325.png"
+    },
+    {
+        "question": "How much money did 'Furious 7' generate on the first weekend of its release?",
+        "answer": "147.19",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17805.png"
+    },
+    {
+        "question": "How many people lived in Denmark as of January 1, 2021?",
+        "answer": "41859",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23058.png"
+    },
+    {
+        "question": "What accounted for 83 percent of the U.S. music industry's revenue in 2020?",
+        "answer": "Streaming",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9917.png"
+    },
+    {
+        "question": "How many cubic meters of natural gas did Gazprom produce in Russia in 2020?",
+        "answer": "454.51",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20048.png"
+    },
+    {
+        "question": "How many Indians lived in Manitoba as of December 2019?",
+        "answer": "162202",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21434.png"
+    },
+    {
+        "question": "What was the energy expenditure relative to GDP in 2000?",
+        "answer": "6.9",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_17337.png"
+    },
+    {
+        "question": "Is the sum total of No answer ,State and local level and National level more then Bothe equally?",
+        "answer": "No",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_261.png"
+    },
+    {
+        "question": "What is Tesco's sales forecast to increase to by 2020?",
+        "answer": "52714.03",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21889.png"
+    },
+    {
+        "question": "How many dollars worth of goods did China export in 2019?",
+        "answer": "2499.03",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_26779.png"
+    },
+    {
+        "question": "How much money did AWS generate in the first quarter of 2021?",
+        "answer": "13503",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_18178.png"
+    },
+    {
+        "question": "How much was ING's brand value estimated to be in US dollars in 2020?",
+        "answer": "11364",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9815.png"
+    },
+    {
+        "question": "What was Naver Corporation's revenue in 2020?",
+        "answer": "5304.15",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_21742.png"
+    },
+    {
+        "question": "Is the average percentage of men in these three cities smaller than the national average?",
+        "answer": "Yes",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3399.png"
+    },
+    {
+        "question": "How many people are free or partially free in total?",
+        "answer": "72",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4405.png"
+    },
+    {
+        "question": "How many people lived in Latin America and the Caribbean in 2018?",
+        "answer": "641.36",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8671.png"
+    },
+    {
+        "question": "What is the sum total of transportation and Tobacco as part of the Eastman Chemical Company's revenue as of 2020?",
+        "answer": "27",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3787.png"
+    },
+    {
+        "question": "Which color bar is on the top of the graph?",
+        "answer": "Orange",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3512.png"
+    },
+    {
+        "question": "What was the total economic output of the golf industry in New Mexico in 2006?",
+        "answer": "0.99",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24332.png"
+    },
+    {
+        "question": "What is value for 2013 ?",
+        "answer": "1798",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5098.png"
+    },
+    {
+        "question": "What was Alibaba Group's brand value in 2020?",
+        "answer": "80.84",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8929.png"
+    },
+    {
+        "question": "What was the production output of shale gas in Texas in 2019?",
+        "answer": "7440",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9237.png"
+    },
+    {
+        "question": "What was the Swatch Group's net income in 2020?",
+        "answer": "533",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_19824.png"
+    },
+    {
+        "question": "Share of connected consumers who feel that there are too many ads on their tablet as of April 2016",
+        "answer": "61",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6906.png"
+    },
+    {
+        "question": "How many games did Ryan Giggs play for Manchester United between 1991 and 2014?",
+        "answer": "963",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_23519.png"
+    },
+    {
+        "question": "Which beauty brand ranked second on Instagram in June 2021?",
+        "answer": "Anastasia Beverly Hills",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_11240.png"
+    },
+    {
+        "question": "What do the dark blue bars represent?",
+        "answer": "International",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_6676.png"
+    },
+    {
+        "question": "What was Novo Nordisk's market capitalization as of October 9, 2019?",
+        "answer": "123.6",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_22532.png"
+    },
+    {
+        "question": "Which country had a value of almost 167.6 billion U.S dollars in direct premiums written in 2019?",
+        "answer": "France",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20787.png"
+    },
+    {
+        "question": "What was BayWa's total revenue in 2007?",
+        "answer": "7260.2",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27953.png"
+    },
+    {
+        "question": "How much CO2 equivalent was produced by fuel combustion in Latvia in 2017?",
+        "answer": "3.33",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8655.png"
+    },
+    {
+        "question": "What was the value of money lost as a result of ATM physical attacks in 2012?",
+        "answer": "19",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16566.png"
+    },
+    {
+        "question": "How much money did Inditex Group generate in sales in 2020?",
+        "answer": "20402",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_16013.png"
+    },
+    {
+        "question": "What was the pre-tax net operating income of FDIC-insured commercial banks in 2019?",
+        "answer": "270.75",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8233.png"
+    },
+    {
+        "question": "What country is third in the ranking of countries with the most hotels offering free Wi-Fi?",
+        "answer": "Norway",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27730.png"
+    },
+    {
+        "question": "What is the difference between the methane emission emitted by the fugitive emissions sector in the year 2004 and 2002?",
+        "answer": "0",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1669.png"
+    },
+    {
+        "question": "Is the wheat production in 2007 more in Mexico compared to the sum of the wheat production of Australia and Canada in terms of tonnes/hectares?",
+        "answer": "Yes",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_3029.png"
+    },
+    {
+        "question": "In what year did Nepal's budget balance end?",
+        "answer": "2020",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20789.png"
+    },
+    {
+        "question": "What was El Salvador's gross domestic product in 2019?",
+        "answer": "27.02",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_27181.png"
+    },
+    {
+        "question": "How much did Novacyt and Co-Diagnostics' share prices rise between January 20 and February 25, 2020?",
+        "answer": "799",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_9071.png"
+    },
+    {
+        "question": "Can you say the difference in the values of uppermost and middle bar is smaller than the difference in the values of middle and lowermost bar?",
+        "answer": "Yes",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_1449.png"
+    },
+    {
+        "question": "Add the average opinion of the two parties from data of the two years?",
+        "answer": "138.5",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_121.png"
+    },
+    {
+        "question": "How many Hyundai cars were sold in Czechia in 2017?",
+        "answer": "20992",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_10934.png"
+    },
+    {
+        "question": "What was the gross financial assets of U.S. households in 2019?",
+        "answer": "83690",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_25273.png"
+    },
+    {
+        "question": "What is the average of all counties except northern ireland?",
+        "answer": "1.59",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_4291.png"
+    },
+    {
+        "question": "How many gigawatt hours of electricity did the UK have in 2018?",
+        "answer": "352000",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_20881.png"
+    },
+    {
+        "question": "What was the average wage for computer manufacturing workers between 2008 and 2010?",
+        "answer": "682",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_8588.png"
+    },
+    {
+        "question": "What is the summation of highest and lowest covid-19 cases?",
+        "answer": "53088",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_5299.png"
+    },
+    {
+        "question": "How many people were 65 years and older in Finland in 2020?",
+        "answer": "1.26",
+        "dataset": "ChartQA Validation split",
+        "image_url": "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/datasets/chartqa/training_data/query_24293.png"
+    }
+]
