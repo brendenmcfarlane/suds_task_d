@@ -9,7 +9,7 @@ from application.database_interface import PKLDB
 st.set_page_config(layout="wide")
 # upload training data
 test_path = "datasets/chartqa/results.pkl"
-test_path = "/datasets/chartqa/archived_results/results_1784211546363239194_tuning_results.pkl"
+test_path = "datasets/chartqa/archived_results/results_1784211546363239194_tuning_results.pkl"
 pkl_db = PKLDB()
 trajectories = pkl_db.read_in(test_path)
 assert isinstance(trajectories, dict)
