@@ -1,0 +1,6 @@
+,Unnamed: 0.4,Unnamed: 0.3,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,question,hyperparameters,MAS workflow,ground truth,MAS answer
+0,0.0,0.0,0.0,0.0,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_clean.json,186600,"186,600 GBP"
+1,1.0,1.0,1.0,,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_faulty_handoff.json,186600,"186,600"
+2,2.0,2.0,,,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600 GBP"
+3,3.0,,,,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_faulty_perception.json,186600,"83,632 GBP"
+4,,,,,,Which gender is represented by the red color line?,"(1, 1)",datasets/chartqa/mas_clean.json,Male,Male

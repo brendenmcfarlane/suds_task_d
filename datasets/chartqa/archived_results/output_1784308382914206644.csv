@@ -1,0 +1,15 @@
+,Unnamed: 0.13,Unnamed: 0.12,Unnamed: 0.11,Unnamed: 0.10,Unnamed: 0.9,Unnamed: 0.8,Unnamed: 0.7,Unnamed: 0.6,Unnamed: 0.5,Unnamed: 0.4,Unnamed: 0.3,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,question,hyperparameters,MAS workflow,ground truth,MAS answer
+0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_clean.json,186600,"186,600 GBP"
+1,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_faulty_handoff.json,186600,"186,600 GBP"
+2,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,2.0,,,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600 GBP"
+3,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,,,,,What was the average annual total income per household of those in the top decile group?,"(1, 1)",datasets/chartqa/mas_faulty_perception.json,186600,"186,600 GBP"
+4,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,,,,,,Which gender is represented by the red color line?,"(1, 1)",datasets/chartqa/mas_clean.json,Male,Male
+5,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0,,,,,,,Which gender is represented by the red color line?,"(1, 1)",datasets/chartqa/mas_faulty_handoff.json,Male,Female
+6,6.0,6.0,6.0,6.0,6.0,6.0,6.0,,,,,,,,Which gender is represented by the red color line?,"(1, 1)",datasets/chartqa/mas_faulty_reasoning.json,Male,Male
+7,7.0,7.0,7.0,7.0,7.0,7.0,,,,,,,,,Which gender is represented by the red color line?,"(1, 1)",datasets/chartqa/mas_faulty_perception.json,Male,Male
+8,8.0,8.0,8.0,8.0,8.0,,,,,,,,,,What's the average of two smallest bar?,"(1, 1)",datasets/chartqa/mas_clean.json,70.535,70.535 million
+9,9.0,9.0,9.0,9.0,,,,,,,,,,,What's the average of two smallest bar?,"(1, 1)",datasets/chartqa/mas_faulty_handoff.json,70.535,70.535 million
+10,10.0,10.0,10.0,,,,,,,,,,,,What's the average of two smallest bar?,"(1, 1)",datasets/chartqa/mas_faulty_reasoning.json,70.535,70.535
+11,11.0,11.0,,,,,,,,,,,,,What's the average of two smallest bar?,"(1, 1)",datasets/chartqa/mas_faulty_perception.json,70.535,70.535
+12,12.0,,,,,,,,,,,,,,What did 92 percent of the top 400 charities and NPOs use for their organization?,"(1, 1)",datasets/chartqa/mas_clean.json,Facebook,Facebook
+13,,,,,,,,,,,,,,,What did 92 percent of the top 400 charities and NPOs use for their organization?,"(1, 1)",datasets/chartqa/mas_faulty_handoff.json,Facebook,Facebook

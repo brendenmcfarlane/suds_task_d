@@ -1,14 +1,14 @@
 {
-  "agents": ["perception", "hand-off", "reasoning", "verifier"],
+  "agents": ["perception 3", "hand-off 10", "reasoning 1", "verifier 4"],
   "edges": [
-    ["question", "perception"],
-    ["question", "hand-off"],
-    ["question", "verifier"],
-    ["images", "perception"],
-    ["perception", "hand-off"],
-    ["perception", "verifier"],
-    ["hand-off", "verifier"],
-    ["hand-off", "reasoning"],
-    ["reasoning", "verifier"]
+    ["question", "perception 3"],
+    ["question", "hand-off 10"],
+    ["question", "verifier 4"],
+    ["images", "perception 3"],
+    ["perception 3", "hand-off 10"],
+    ["perception 3", "verifier 4"],
+    ["hand-off 10", "verifier 4"],
+    ["hand-off 10", "reasoning 1"],
+    ["reasoning 1", "verifier 4"]
   ]
 }

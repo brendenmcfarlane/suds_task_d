@@ -1,0 +1,117 @@
+,question,hyperparameters,MAS workflow,ground truth,MAS answer
+0,What was the Marshall Islands' gross domestic product in 2019?,"(2, 3)",datasets/chartqa/mas_clean.json,0.24,0.24 billion U.S. dollars
+1,What was the Marshall Islands' gross domestic product in 2019?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,0.24,0.24 billion U.S. dollars
+2,What was the Marshall Islands' gross domestic product in 2019?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,0.24,0.24 billion U.S. dollars
+3,What was the Marshall Islands' gross domestic product in 2019?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,0.24,0.23 billion U.S. dollars
+4,Is the sum of Germany and Asia pacific revenue bigger than rest of Europe including America?,"(2, 3)",datasets/chartqa/mas_clean.json,Yes,Yes
+5,Is the sum of Germany and Asia pacific revenue bigger than rest of Europe including America?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,Yes,True
+6,Is the sum of Germany and Asia pacific revenue bigger than rest of Europe including America?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,Yes,Yes
+7,Is the sum of Germany and Asia pacific revenue bigger than rest of Europe including America?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,Yes,Cannot be determined
+8,Which value represents the largest percentage of the graph?,"(2, 3)",datasets/chartqa/mas_clean.json,Favor,39%
+9,Which value represents the largest percentage of the graph?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,Favor,Favor
+10,Which value represents the largest percentage of the graph?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,Favor,Favor
+11,Which value represents the largest percentage of the graph?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,Favor,Favor
+12,How many divorces were there in South Korea in 2020?,"(2, 3)",datasets/chartqa/mas_clean.json,106500,"106,000"
+13,How many divorces were there in South Korea in 2020?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,106500,"106,000"
+14,How many divorces were there in South Korea in 2020?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,106500,"106,000"
+15,How many divorces were there in South Korea in 2020?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,106500,"115,000"
+16,What was the export value of Italian PDO white wines in the first semester of 2020?,"(2, 3)",datasets/chartqa/mas_clean.json,455,455 million euros
+17,What was the export value of Italian PDO white wines in the first semester of 2020?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,455,455 million euros
+18,What was the export value of Italian PDO white wines in the first semester of 2020?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,455,455 million euros
+19,What was the export value of Italian PDO white wines in the first semester of 2020?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,455,455 million euros
+20,How much did Senegal's real GDP increase in 2019?,"(2, 3)",datasets/chartqa/mas_clean.json,4.4,4.4%
+21,How much did Senegal's real GDP increase in 2019?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,4.4,4.4%
+22,How much did Senegal's real GDP increase in 2019?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,4.4,4.4%
+23,How much did Senegal's real GDP increase in 2019?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,4.4,4.4%
+24,What's the sum of the lowest two shares of respondents?,"(2, 3)",datasets/chartqa/mas_clean.json,15,15%
+25,What's the sum of the lowest two shares of respondents?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,15,15%
+26,What's the sum of the lowest two shares of respondents?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,15,15%
+27,What's the sum of the lowest two shares of respondents?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,15,17
+28,What is the average forecast on social network users in India for the next two years?,"(2, 3)",datasets/chartqa/mas_clean.json,435.3,435.3 million users
+29,What is the average forecast on social network users in India for the next two years?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,435.3,435.3 million
+30,What is the average forecast on social network users in India for the next two years?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,435.3,411.5
+31,What is the average forecast on social network users in India for the next two years?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,435.3,411.5 million
+32,In what year did Playboy have the highest global circulation?,"(2, 3)",datasets/chartqa/mas_clean.json,1975,1975
+33,In what year did Playboy have the highest global circulation?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,1975,1975
+34,In what year did Playboy have the highest global circulation?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,1975,1975
+35,In what year did Playboy have the highest global circulation?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,1975,1970
+36,What is the difference in the  value of agricultural land per capita between the two places?,"(2, 3)",datasets/chartqa/mas_clean.json,0.27,0.27
+37,What is the difference in the  value of agricultural land per capita between the two places?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,0.27,0.27
+38,What is the difference in the  value of agricultural land per capita between the two places?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,0.27,0.27
+39,What is the difference in the  value of agricultural land per capita between the two places?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,0.27,0.17
+40,What was the year with the highest share of SMEs that made a profit?,"(2, 3)",datasets/chartqa/mas_clean.json,2017,2017
+41,What was the year with the highest share of SMEs that made a profit?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,2017,2017
+42,What was the year with the highest share of SMEs that made a profit?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,2017,2017
+43,What was the year with the highest share of SMEs that made a profit?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,2017,2017
+44,What percentage of the population is in civil partnership?,"(2, 3)",datasets/chartqa/mas_clean.json,0.2,0.2%
+45,What percentage of the population is in civil partnership?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,0.2,0.2%
+46,What percentage of the population is in civil partnership?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,0.2,0.2%
+47,What percentage of the population is in civil partnership?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,0.2,2.7%
+48,What percentage of the Belgian population was in poverty in 2018?,"(2, 3)",datasets/chartqa/mas_clean.json,15.9,16.4%
+49,What percentage of the Belgian population was in poverty in 2018?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,15.9,16.4%
+50,What percentage of the Belgian population was in poverty in 2018?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,15.9,16.4%
+51,What percentage of the Belgian population was in poverty in 2018?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,15.9,15.9%
+52,What is the sum of the two largest bar?,"(2, 3)",datasets/chartqa/mas_clean.json,661,661%
+53,What is the sum of the two largest bar?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,661,661
+54,What is the sum of the two largest bar?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,661,661%
+55,What is the sum of the two largest bar?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,661,651%
+56,Since what year has the number of tourist arrivals at accommodation establishments in North Macedonia been increasing?,"(2, 3)",datasets/chartqa/mas_clean.json,2010,2011
+57,Since what year has the number of tourist arrivals at accommodation establishments in North Macedonia been increasing?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,2010,2011
+58,Since what year has the number of tourist arrivals at accommodation establishments in North Macedonia been increasing?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,2010,2010
+59,Since what year has the number of tourist arrivals at accommodation establishments in North Macedonia been increasing?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,2010,2010
+60,What is Singapore's inflation rate projected to be in 2026?,"(2, 3)",datasets/chartqa/mas_clean.json,1.48,1.5%
+61,What is Singapore's inflation rate projected to be in 2026?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,1.48,cannot be determined
+62,What is Singapore's inflation rate projected to be in 2026?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,1.48,1.5%
+63,What is Singapore's inflation rate projected to be in 2026?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,1.48,1.35%
+64,What is the number of Sperm whales killed in the world in 1958?,"(2, 3)",datasets/chartqa/mas_clean.json,20549,"20,549"
+65,What is the number of Sperm whales killed in the world in 1958?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,20549,"20,549"
+66,What is the number of Sperm whales killed in the world in 1958?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,20549,"20,549"
+67,What is the number of Sperm whales killed in the world in 1958?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,20549,"20,549"
+68,What is the average value of all Orange bars?,"(2, 3)",datasets/chartqa/mas_clean.json,15,15%
+69,What is the average value of all Orange bars?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,15,57.33%
+70,What is the average value of all Orange bars?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,15,15%
+71,What is the average value of all Orange bars?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,15,57.33
+72,What is the total value of the two bars?,"(2, 3)",datasets/chartqa/mas_clean.json,79.8,79.8
+73,What is the total value of the two bars?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,79.8,79.8
+74,What is the total value of the two bars?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,79.8,79.8
+75,What is the total value of the two bars?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,79.8,70.8
+76,What is the ratio between men and woman data in scotland ?,"(2, 3)",datasets/chartqa/mas_clean.json,0.714285714,856:1215
+77,What is the ratio between men and woman data in scotland ?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,0.714285714,1712:2430
+78,What is the ratio between men and woman data in scotland ?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,0.714285714,856:1215
+79,What is the ratio between men and woman data in scotland ?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,0.714285714,856:1215
+80,What was the total number of auction sales of modern and contemporary art in India in 2015?,"(2, 3)",datasets/chartqa/mas_clean.json,59,Cannot be determined from the given information.
+81,What was the total number of auction sales of modern and contemporary art in India in 2015?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,59,59 million U.S. dollars
+82,What was the total number of auction sales of modern and contemporary art in India in 2015?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,59,59 million U.S. dollars
+83,What was the total number of auction sales of modern and contemporary art in India in 2015?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,59,59
+84,When did the number of physical attacks begin to increase in Europe?,"(2, 3)",datasets/chartqa/mas_clean.json,2014,2015
+85,When did the number of physical attacks begin to increase in Europe?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,2014,2013
+86,When did the number of physical attacks begin to increase in Europe?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,2014,2013
+87,When did the number of physical attacks begin to increase in Europe?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,2014,2014
+88,What was the most downloaded game in the Google Play Store in April 2021?,"(2, 3)",datasets/chartqa/mas_clean.json,Bridge Race,Bridge Race
+89,What was the most downloaded game in the Google Play Store in April 2021?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,Bridge Race,Bridge Race
+90,What was the most downloaded game in the Google Play Store in April 2021?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,Bridge Race,Bridge Race
+91,What was the most downloaded game in the Google Play Store in April 2021?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,Bridge Race,Bridge Race
+92,"What's the percentage value of ""Hurt less"" opinion?","(2, 3)",datasets/chartqa/mas_clean.json,0.05,5%
+93,"What's the percentage value of ""Hurt less"" opinion?","(2, 3)",datasets/chartqa/mas_faulty_handoff.json,0.05,5%
+94,"What's the percentage value of ""Hurt less"" opinion?","(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,0.05,5%
+95,"What's the percentage value of ""Hurt less"" opinion?","(2, 3)",datasets/chartqa/mas_faulty_perception.json,0.05,8%
+96,What percentage of the population in the UK used cocaine in the previous year?,"(2, 3)",datasets/chartqa/mas_clean.json,2.7,2.7%
+97,What percentage of the population in the UK used cocaine in the previous year?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,2.7,2.7%
+98,What percentage of the population in the UK used cocaine in the previous year?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,2.7,2.7%
+99,What percentage of the population in the UK used cocaine in the previous year?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,2.7,2.7%
+100,What is the difference between the highest and the lowest dark blue bar?,"(2, 3)",datasets/chartqa/mas_clean.json,1.38,1.38
+101,What is the difference between the highest and the lowest dark blue bar?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,1.38,\boxed{1.38}
+102,What is the difference between the highest and the lowest dark blue bar?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,1.38,1.38
+103,What is the difference between the highest and the lowest dark blue bar?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,1.38,1.07
+104,What is the global OTC sales market estimated to grow to by 2028?,"(2, 3)",datasets/chartqa/mas_clean.json,1194,"1,194 million U.S. dollars"
+105,What is the global OTC sales market estimated to grow to by 2028?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,1194,"1,194 million U.S. dollars"
+106,What is the global OTC sales market estimated to grow to by 2028?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,1194,"1,194 million U.S. dollars"
+107,What is the global OTC sales market estimated to grow to by 2028?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,1194,"About 1,194 million U.S. dollars."
+108,How much money was invested in road infrastructure in Slovakia in 2017?,"(2, 3)",datasets/chartqa/mas_clean.json,749.85,750 million euros
+109,How much money was invested in road infrastructure in Slovakia in 2017?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,749.85,750 million euros
+110,How much money was invested in road infrastructure in Slovakia in 2017?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,749.85,750 million euros
+111,How much money was invested in road infrastructure in Slovakia in 2017?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,749.85,Cannot be determined
+112,What was the average size of the world's leading electronic products companies in 2013?,"(2, 3)",datasets/chartqa/mas_clean.json,35.08,35.08 billion U.S. dollars
+113,What was the average size of the world's leading electronic products companies in 2013?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,35.08,35.08 billion U.S. dollars
+114,What was the average size of the world's leading electronic products companies in 2013?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,35.08,35.08
+115,What was the average size of the world's leading electronic products companies in 2013?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,35.08,It cannot be determined from the given information.

@@ -3,31 +3,67 @@
     "prompt": "Answer the question, with your final answer formatted as an integer",
     "model": "openai"
   },
-  "perception": {
+  "perception 3": {
     "prompt": "You are a perception agent in a multi-agent system. You are the only agent with vision to see the chart. Write visual facts about what you observe in the chart so that another agent can create a text-only word problem that represents the question. Do not state the final answer.",
     "model": "default-vision"
   },
-  "faulty perception": {
+  "perception 5": {
     "prompt": "You are creating training data for an llm-judge. Create a response to the following prompt with one fact about the picture changed to an incorrect fact so that another agent can see what a failing perception agent looks like. Perception Agent Prompt: You are a perception agent in a multi-agent system. You are the only agent with vision to see the chart. Write visual facts about what you observe in the chart so that another agent can create a text-only word problem that represents the question. Do not state the final answer.",
     "model": "default-vision"
   },
-  "hand-off": {
+  "perception 13": {
+    "prompt": "You are a perception agent in a multi-agent system. You are the only agent with vision to see the chart. Write visual facts about what you observe in the chart so that another agent can create a text-only word problem that represents the question. Do not state the final answer.",
+    "model": "default-vision"
+  },
+  "perception 14": {
+    "prompt": "You are a perception agent in a multi-agent system. You are the only agent with vision to see the chart. Write visual facts about what you observe in the chart so that another agent can create a text-only word problem that represents the question. Do not state the final answer.",
+    "model": "default-vision"
+  },
+  "hand-off 10": {
     "prompt": "You are the hand-off agent of a multimodal, multiagent system. use the facts provide from the perception agent, along with the question to contstruct a clean, text-only word problem that a reasoning agent will have to solve.",
     "model": "default"
   },
-  "faulty hand-off": {
+  "hand-off 12": {
+    "prompt": "You are the hand-off agent of a multimodal, multiagent system. use the facts provide from the perception agent, along with the question to contstruct a clean, text-only word problem that a reasoning agent will have to solve.",
+    "model": "default"
+  },
+  "hand-off 9": {
     "prompt": "You are creating training data for an llm-judge. Create a sample response from a 'faulty handoff agent' that will handoff an incomplete or misleading premise. Your answer should be formatted as if it came from the hand-off agent. Hand-off Agent Prompt: You are the hand-off agent of a multimodal, multiagent system. use the facts provide from the perception agent, along with the question to contstruct a clean, text-only word problem that a reasoning agent will have to solve.",
     "model": "default"
   },
-  "reasoning": {
+  "hand-off 7": {
+    "prompt": "You are the hand-off agent of a multimodal, multiagent system. use the facts provide from the perception agent, along with the question to contstruct a clean, text-only word problem that a reasoning agent will have to solve.",
+    "model": "default"
+  },
+  "reasoning 1": {
     "prompt": "You are a reasoning agent in a multimodal, multi-agent system. The hand-off agent has supplied you a clean text only premise to a question about a visual chart. Solve the premisee using all the facts provided.",
     "model": "default"
   },
-  "faulty reasoning": {
+  "reasoning 15": {
+    "prompt": "You are a reasoning agent in a multimodal, multi-agent system. The hand-off agent has supplied you a clean text only premise to a question about a visual chart. Solve the premisee using all the facts provided.",
+    "model": "default"
+  },
+  "reasoning 11": {
+    "prompt": "You are a reasoning agent in a multimodal, multi-agent system. The hand-off agent has supplied you a clean text only premise to a question about a visual chart. Solve the premisee using all the facts provided.",
+    "model": "default"
+  },
+  "reasoning 6": {
     "prompt": "You are creating training data for an llm-judge. Create a sample response from a 'faulty reasoning agent' that will hallucinate incorrect information and reach an incorrect solution. Your answer should be formatted as if it came from the reasoning agent. Reasoning Agent Prompt: You are a reasoning agent in a multimodal, multi-agent system. The hand-off agent has supplied you a clean text only premise to a question about a visual chart. Solve the premisee using all the facts provided.",
     "model": "default"
   },
-  "verifier": {
+  "verifier 4": {
+    "prompt": "You are the verifier agent of a multi-agent system. The system has these agents: Perception Agent -> Handoff Agent -> Reasoning Agent -> Verifier. The Reasoning Agent cannot see the image. It only sees the text premise. Using the text portion of the question, along with the other agent’s answers, Determine if the reasoning agent reached the correct answer. Then return nothing more than the correct answer to the question, do not include any other explanation.",
+    "model": "default"
+  },
+  "verifier 2": {
+    "prompt": "You are the verifier agent of a multi-agent system. The system has these agents: Perception Agent -> Handoff Agent -> Reasoning Agent -> Verifier. The Reasoning Agent cannot see the image. It only sees the text premise. Using the text portion of the question, along with the other agent’s answers, Determine if the reasoning agent reached the correct answer. Then return nothing more than the correct answer to the question, do not include any other explanation.",
+    "model": "default"
+  },
+  "verifier 16": {
+    "prompt": "You are the verifier agent of a multi-agent system. The system has these agents: Perception Agent -> Handoff Agent -> Reasoning Agent -> Verifier. The Reasoning Agent cannot see the image. It only sees the text premise. Using the text portion of the question, along with the other agent’s answers, Determine if the reasoning agent reached the correct answer. Then return nothing more than the correct answer to the question, do not include any other explanation.",
+    "model": "default"
+  },
+  "verifier 8": {
     "prompt": "You are the verifier agent of a multi-agent system. The system has these agents: Perception Agent -> Handoff Agent -> Reasoning Agent -> Verifier. The Reasoning Agent cannot see the image. It only sees the text premise. Using the text portion of the question, along with the other agent’s answers, Determine if the reasoning agent reached the correct answer. Then return nothing more than the correct answer to the question, do not include any other explanation.",
     "model": "default"
   }

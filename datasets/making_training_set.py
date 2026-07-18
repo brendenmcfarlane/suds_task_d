@@ -3,20 +3,24 @@ from datasets import load_dataset
 import random
 import json
 
-val_dataset = load_dataset("HuggingFaceM4/ChartQA", split="val")
+n_samples = 500
 
-output_dir = Path("datasets/chartqa/tuning_images")
+ds_split = load_dataset("HuggingFaceM4/ChartQA", split="train")
+
+output_path = "datasets/chartqa/training_data"
 git_hub_path = "https://raw.githubusercontent.com/brendenmcfarlane/suds_task_d/main/"
+json_path = output_path + "/training_data_questions.json"
+output_dir = Path(output_path)
 output_dir.mkdir(exist_ok=True)
-json_path = "datasets/chartqa/tuning_questions.json"
 
 random.seed(42)
 
 # Original indices
-indices = random.sample(range(len(val_dataset)), 10)
+sample_space = range(5, len(ds_split))
+indices = random.sample(sample_space, n_samples)
 
 # Select those examples
-samples = val_dataset.select(indices)
+samples = ds_split.select(indices)
 json_samples = []
 
 

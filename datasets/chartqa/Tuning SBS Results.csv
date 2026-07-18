@@ -1,0 +1,243 @@
+question,hyperparameters,MAS workflow,ground truth,MAS answer
+What was the average annual total income per household of those in the top decile group?,"(2, 1)",datasets/chartqa/mas_clean.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,186600,"£186,600"
+What was the average annual total income per household of those in the top decile group?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,186600,"186,600 GBP"
+Which gender is represented by the red color line?,"(2, 1)",datasets/chartqa/mas_clean.json,Male,Male
+Which gender is represented by the red color line?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,Male,Male
+Which gender is represented by the red color line?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,Male,Male
+Which gender is represented by the red color line?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,Male,Male
+What's the average of two smallest bar?,"(2, 1)",datasets/chartqa/mas_clean.json,70.535,70.535
+What's the average of two smallest bar?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,70.535,70.535 million
+What's the average of two smallest bar?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,70.535,70.535 million
+What's the average of two smallest bar?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,70.535,70.535
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 1)",datasets/chartqa/mas_clean.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,Facebook,Facebook
+What's the percentage of revenue contributes by people under 44?,"(2, 1)",datasets/chartqa/mas_clean.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,40.3,40.3%
+What is the median of the three least raised biotech venture capitals?,"(2, 1)",datasets/chartqa/mas_clean.json,12000,"12,000"
+What is the median of the three least raised biotech venture capitals?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,12000,"12,000"
+What is the median of the three least raised biotech venture capitals?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,12000,$2.5 billion
+"Between which two years , the GDP of New Zealand is maximum?","(2, 1)",datasets/chartqa/mas_clean.json,2009,2008 and 2010
+"Between which two years , the GDP of New Zealand is maximum?","(2, 1)",datasets/chartqa/mas_faulty_handoff.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,2009,2008 and 2010
+"Between which two years , the GDP of New Zealand is maximum?","(2, 1)",datasets/chartqa/mas_faulty_perception.json,2009,Cannot be determined.
+What is the total of Bad and Good in the Remain?,"(2, 1)",datasets/chartqa/mas_clean.json,100,100
+What is the total of Bad and Good in the Remain?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,100,100%
+What is the total of Bad and Good in the Remain?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,100,100%
+What is the total of Bad and Good in the Remain?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,100,100%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 1)",datasets/chartqa/mas_clean.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,11.1,13.9%
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 1)",datasets/chartqa/mas_clean.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 1)",datasets/chartqa/mas_faulty_handoff.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 1)",datasets/chartqa/mas_faulty_reasoning.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 1)",datasets/chartqa/mas_faulty_perception.json,Bosnia and Herzegovina,Russia
+What was the average annual total income per household of those in the top decile group?,"(2, 3)",datasets/chartqa/mas_clean.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,186600,"£186,600"
+Which gender is represented by the red color line?,"(2, 3)",datasets/chartqa/mas_clean.json,Male,Male
+Which gender is represented by the red color line?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,Male,Male
+Which gender is represented by the red color line?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,Male,Male
+Which gender is represented by the red color line?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,Male,female
+What's the average of two smallest bar?,"(2, 3)",datasets/chartqa/mas_clean.json,70.535,\boxed{70.535}
+What's the average of two smallest bar?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,70.535,70.535 million
+What's the average of two smallest bar?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,70.535,70.535 million
+What's the average of two smallest bar?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,70.535,70.535 million
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 3)",datasets/chartqa/mas_clean.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,Facebook,Facebook
+What's the percentage of revenue contributes by people under 44?,"(2, 3)",datasets/chartqa/mas_clean.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,40.3,38.7%
+What's the percentage of revenue contributes by people under 44?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,40.3,40.3%
+What is the median of the three least raised biotech venture capitals?,"(2, 3)",datasets/chartqa/mas_clean.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,12000,"12,000"
+What is the median of the three least raised biotech venture capitals?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,12000,"12,000"
+"Between which two years , the GDP of New Zealand is maximum?","(2, 3)",datasets/chartqa/mas_clean.json,2009,2008 and 2010
+"Between which two years , the GDP of New Zealand is maximum?","(2, 3)",datasets/chartqa/mas_faulty_handoff.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(2, 3)",datasets/chartqa/mas_faulty_perception.json,2009,Insufficient information to determine the years of maximum GDP.
+What is the total of Bad and Good in the Remain?,"(2, 3)",datasets/chartqa/mas_clean.json,100,100%
+What is the total of Bad and Good in the Remain?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,100,100
+What is the total of Bad and Good in the Remain?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,100,100
+What is the total of Bad and Good in the Remain?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,100,100%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 3)",datasets/chartqa/mas_clean.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,11.1,11.1%
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 3)",datasets/chartqa/mas_clean.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 3)",datasets/chartqa/mas_faulty_handoff.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 3)",datasets/chartqa/mas_faulty_reasoning.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(2, 3)",datasets/chartqa/mas_faulty_perception.json,Bosnia and Herzegovina,Russia
+What was the average annual total income per household of those in the top decile group?,"(3, 1)",datasets/chartqa/mas_clean.json,186600,"£186,600"
+What was the average annual total income per household of those in the top decile group?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,186600,"83,632 GBP"
+Which gender is represented by the red color line?,"(3, 1)",datasets/chartqa/mas_clean.json,Male,Male
+Which gender is represented by the red color line?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,Male,Female
+Which gender is represented by the red color line?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,Male,Male
+Which gender is represented by the red color line?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,Male,female
+What's the average of two smallest bar?,"(3, 1)",datasets/chartqa/mas_clean.json,70.535,70.535
+What's the average of two smallest bar?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,70.535,70.535 million
+What's the average of two smallest bar?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,70.535,70.535 million
+What's the average of two smallest bar?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,70.535,70.535 million
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 1)",datasets/chartqa/mas_clean.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,Facebook,Facebook
+What's the percentage of revenue contributes by people under 44?,"(3, 1)",datasets/chartqa/mas_clean.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,40.3,40.3%
+What is the median of the three least raised biotech venture capitals?,"(3, 1)",datasets/chartqa/mas_clean.json,12000,\boxed{12000}
+What is the median of the three least raised biotech venture capitals?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,12000,"12,000"
+What is the median of the three least raised biotech venture capitals?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,12000,\boxed{12000}
+"Between which two years , the GDP of New Zealand is maximum?","(3, 1)",datasets/chartqa/mas_clean.json,2009,Between 2008 and 2010
+"Between which two years , the GDP of New Zealand is maximum?","(3, 1)",datasets/chartqa/mas_faulty_handoff.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,2009,between 2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(3, 1)",datasets/chartqa/mas_faulty_perception.json,2009,2009 and 2010
+What is the total of Bad and Good in the Remain?,"(3, 1)",datasets/chartqa/mas_clean.json,100,100
+What is the total of Bad and Good in the Remain?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,100,100
+What is the total of Bad and Good in the Remain?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,100,100
+What is the total of Bad and Good in the Remain?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,100,100%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 1)",datasets/chartqa/mas_clean.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,11.1,13.9%
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 1)",datasets/chartqa/mas_clean.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 1)",datasets/chartqa/mas_faulty_handoff.json,Bosnia and Herzegovina,Russia
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 1)",datasets/chartqa/mas_faulty_reasoning.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 1)",datasets/chartqa/mas_faulty_perception.json,Bosnia and Herzegovina,Russia
+What was the average annual total income per household of those in the top decile group?,"(3, 3)",datasets/chartqa/mas_clean.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600"
+What was the average annual total income per household of those in the top decile group?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,186600,"186,600 GBP"
+Which gender is represented by the red color line?,"(3, 3)",datasets/chartqa/mas_clean.json,Male,Male
+Which gender is represented by the red color line?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,Male,Female
+Which gender is represented by the red color line?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,Male,Male
+Which gender is represented by the red color line?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,Male,Female
+What's the average of two smallest bar?,"(3, 3)",datasets/chartqa/mas_clean.json,70.535,70.535 million
+What's the average of two smallest bar?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,70.535,70.535
+What's the average of two smallest bar?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,70.535,70.035 million
+What's the average of two smallest bar?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,70.535,70.535 million
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 3)",datasets/chartqa/mas_clean.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,Facebook,Facebook
+What's the percentage of revenue contributes by people under 44?,"(3, 3)",datasets/chartqa/mas_clean.json,40.3,\boxed{40.3\%}
+What's the percentage of revenue contributes by people under 44?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,40.3,40.3%
+What is the median of the three least raised biotech venture capitals?,"(3, 3)",datasets/chartqa/mas_clean.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,12000,"12,000"
+What is the median of the three least raised biotech venture capitals?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,12000,12000
+"Between which two years , the GDP of New Zealand is maximum?","(3, 3)",datasets/chartqa/mas_clean.json,2009,2009 and 2010
+"Between which two years , the GDP of New Zealand is maximum?","(3, 3)",datasets/chartqa/mas_faulty_handoff.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(3, 3)",datasets/chartqa/mas_faulty_perception.json,2009,2007–2008
+What is the total of Bad and Good in the Remain?,"(3, 3)",datasets/chartqa/mas_clean.json,100,100
+What is the total of Bad and Good in the Remain?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,100,100
+What is the total of Bad and Good in the Remain?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,100,100%
+What is the total of Bad and Good in the Remain?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,100,100%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 3)",datasets/chartqa/mas_clean.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,11.1,13.9%
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 3)",datasets/chartqa/mas_clean.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 3)",datasets/chartqa/mas_faulty_handoff.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 3)",datasets/chartqa/mas_faulty_reasoning.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(3, 3)",datasets/chartqa/mas_faulty_perception.json,Bosnia and Herzegovina,Russia
+What was the average annual total income per household of those in the top decile group?,"(4, 1)",datasets/chartqa/mas_clean.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,186600,"£186,600"
+Which gender is represented by the red color line?,"(4, 1)",datasets/chartqa/mas_clean.json,Male,Male
+Which gender is represented by the red color line?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,Male,Female
+Which gender is represented by the red color line?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,Male,Male
+Which gender is represented by the red color line?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,Male,female
+What's the average of two smallest bar?,"(4, 1)",datasets/chartqa/mas_clean.json,70.535,70.535
+What's the average of two smallest bar?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,70.535,70.54
+What's the average of two smallest bar?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,70.535,70.535 million
+What's the average of two smallest bar?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,70.535,70.535 million
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 1)",datasets/chartqa/mas_clean.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,Facebook,Facebook
+What's the percentage of revenue contributes by people under 44?,"(4, 1)",datasets/chartqa/mas_clean.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,40.3,40.3%
+What is the median of the three least raised biotech venture capitals?,"(4, 1)",datasets/chartqa/mas_clean.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,12000,"12,000"
+What is the median of the three least raised biotech venture capitals?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,12000,12000
+"Between which two years , the GDP of New Zealand is maximum?","(4, 1)",datasets/chartqa/mas_clean.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(4, 1)",datasets/chartqa/mas_faulty_handoff.json,2009,between 2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,2009,2009 and 2010
+"Between which two years , the GDP of New Zealand is maximum?","(4, 1)",datasets/chartqa/mas_faulty_perception.json,2009,2008 and 2009
+What is the total of Bad and Good in the Remain?,"(4, 1)",datasets/chartqa/mas_clean.json,100,100
+What is the total of Bad and Good in the Remain?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,100,100%
+What is the total of Bad and Good in the Remain?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,100,100
+What is the total of Bad and Good in the Remain?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,100,100%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 1)",datasets/chartqa/mas_clean.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,11.1,13.9%
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 1)",datasets/chartqa/mas_clean.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 1)",datasets/chartqa/mas_faulty_handoff.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 1)",datasets/chartqa/mas_faulty_reasoning.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 1)",datasets/chartqa/mas_faulty_perception.json,Bosnia and Herzegovina,Russia
+What was the average annual total income per household of those in the top decile group?,"(4, 3)",datasets/chartqa/mas_clean.json,186600,"£186,600"
+What was the average annual total income per household of those in the top decile group?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,186600,"186,600 GBP"
+What was the average annual total income per household of those in the top decile group?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,186600,"186,600 GBP"
+Which gender is represented by the red color line?,"(4, 3)",datasets/chartqa/mas_clean.json,Male,Male
+Which gender is represented by the red color line?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,Male,Female
+Which gender is represented by the red color line?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,Male,Male
+Which gender is represented by the red color line?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,Male,female
+What's the average of two smallest bar?,"(4, 3)",datasets/chartqa/mas_clean.json,70.535,70.535
+What's the average of two smallest bar?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,70.535,"The two smallest bars are 34.58 million and 106.49 million. Their average is (34.58 + 106.49) / 2 = 70.535 million.
+
+70.535"
+What's the average of two smallest bar?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,70.535,70.535 million
+What's the average of two smallest bar?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,70.535,70.535 million
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 3)",datasets/chartqa/mas_clean.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,Facebook,Facebook
+What did 92 percent of the top 400 charities and NPOs use for their organization?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,Facebook,Facebook
+What's the percentage of revenue contributes by people under 44?,"(4, 3)",datasets/chartqa/mas_clean.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,40.3,40.3%
+What's the percentage of revenue contributes by people under 44?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,40.3,40.3%
+What is the median of the three least raised biotech venture capitals?,"(4, 3)",datasets/chartqa/mas_clean.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,12000,12000
+What is the median of the three least raised biotech venture capitals?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,12000,"$12,000"
+What is the median of the three least raised biotech venture capitals?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,12000,12000
+"Between which two years , the GDP of New Zealand is maximum?","(4, 3)",datasets/chartqa/mas_clean.json,2009,Between 2008 and 2009.
+"Between which two years , the GDP of New Zealand is maximum?","(4, 3)",datasets/chartqa/mas_faulty_handoff.json,2009,2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,2009,Between 2008 and 2009
+"Between which two years , the GDP of New Zealand is maximum?","(4, 3)",datasets/chartqa/mas_faulty_perception.json,2009,Between 2008 and 2009
+What is the total of Bad and Good in the Remain?,"(4, 3)",datasets/chartqa/mas_clean.json,100,100
+What is the total of Bad and Good in the Remain?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,100,100
+What is the total of Bad and Good in the Remain?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,100,100
+What is the total of Bad and Good in the Remain?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,100,100%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 3)",datasets/chartqa/mas_clean.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,11.1,11.1%
+What was the percentage of school children who read eBooks outside of class in 2016?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,11.1,13.9%
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 3)",datasets/chartqa/mas_clean.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 3)",datasets/chartqa/mas_faulty_handoff.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 3)",datasets/chartqa/mas_faulty_reasoning.json,Bosnia and Herzegovina,Bosnia and Herzegovina
+Which country has a higher share of the population using safely managed drinking water over the years?,"(4, 3)",datasets/chartqa/mas_faulty_perception.json,Bosnia and Herzegovina,Russia

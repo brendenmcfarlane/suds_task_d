@@ -1,0 +1,2 @@
+,question,hyperparameters,MAS workflow,ground truth,MAS answer
+0,What was the Marshall Islands' gross domestic product in 2019?,"(1, 1)",datasets/chartqa/mas_clean.json,0.24,0.24 billion U.S. dollars
