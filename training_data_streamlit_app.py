@@ -16,18 +16,32 @@ assert isinstance(trajectories, dict)
 # init conditions
 hyp_key = st.radio(
     "Select Hyperparameter Set",
-    list(trajectories.keys()),
+    list(trajectories.keys())[:-1], #TODO: fix this so it is resolvedd manually
     key=f"action_{5}"
 )
 query_key = st.radio(
     "Select Question",
     list(trajectories[hyp_key].keys()),
+    captions=["What was the average annual total income per household of those in the top decile group?",
+              "Which gender is represented by the red color line?",
+              "What's the average of two smallest bar?",
+              "What did 92 percent of the top 400 charities and NPOs use for their organization?",
+              "What's the percentage of revenue contributes by people under 44?",
+              "What is the median of the three least raised biotech venture capitals?",
+              "Between which two years , the GDP of New Zealand is maximum?",
+              "What is the total of Bad and Good in the row Remain?",
+              "What was the percentage of school children who read eBooks outside of class in 2016?",
+              "Which country has a higher share of the population using safely managed drinking water over the years?"],
     key=f"action_{3}"
 )
 
 workflow_key = st.radio(
     "Select MAS Workflow",
     list(trajectories[hyp_key][query_key].keys()),
+    captions=["datasets/chartqa/mas_clean.json", 
+              "datasets/chartqa/mas_faulty_handoff.json", 
+              "datasets/chartqa/mas_faulty_reasoning.json", 
+              "datasets/chartqa/mas_faulty_perception.json"],
     key=f"action_{4}"
 )
 
